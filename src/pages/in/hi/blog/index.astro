@@ -4,14 +4,14 @@ import BlogCard from '../../../../components/BlogCard.astro';
 import { getCollection } from 'astro:content';
 import { getTranslations } from '../../../../i18n/translations';
 
-const locale = 'en';
+const locale = 'hi';
 const t = getTranslations(locale);
 
 const posts = (await getCollection('blog'))
-  .filter(post => !post.data.draft && (post.data.locale || 'en') === 'en')
+  .filter(post => !post.data.draft && post.data.locale === 'hi')
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 ---
-<BaseLayout title="Blog — Is Built Wrong" description={t.blog.subtitle} locale={locale}>
+<BaseLayout title="ब्लॉग — Is Built Wrong" description={t.blog.subtitle} locale={locale}>
   <section class="py-16 sm:py-24">
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
       <header class="mb-12 sm:mb-16">
@@ -28,7 +28,7 @@ const posts = (await getCollection('blog'))
               title={post.data.title}
               description={post.data.description}
               date={post.data.date}
-              slug={post.id.replace(/^en-/, '')}
+              slug={post.id.replace(/^hi-/, '')}
               tags={post.data.tags}
               readMore={t.blog.readMore}
               locale={locale}
@@ -37,7 +37,7 @@ const posts = (await getCollection('blog'))
         </div>
       ) : (
         <div class="text-center py-16">
-          <p class="text-[var(--color-text-muted)] text-lg">New posts coming soon.</p>
+          <p class="text-[var(--color-text-muted)] text-lg">जल्दी ही नए पोस्ट आ रहे हैं।</p>
         </div>
       )}
     </div>

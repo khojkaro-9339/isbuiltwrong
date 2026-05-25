@@ -1,0 +1,978 @@
+===============================================
+BLOG POST TRANSLATIONS NEEDED
+IsBuiltWrong.com — Hindi, Bengali, Nepali
+===============================================
+
+INSTRUCTIONS FOR TRANSLATOR:
+- Translate all 3 blog posts below into Hindi, Bengali, and Nepali.
+- Audience: Indian small business owners (kirana shop, manufacturer, service provider).
+- Tone: Direct, friendly, conversational — like explaining to a friend. NOT corporate or academic.
+- DO NOT translate brand names: Google, Facebook, WhatsApp, KhojKaro, PageSpeed Insights, Google Maps, Google Business Profile (GBP), Google Analytics.
+- DO NOT translate technical terms that Indian business owners commonly use in English: ads, boost, post, WhatsApp, homepage, landing page, UTM.
+- Currency references (₹5,000, ₹50,000 etc.) stay as-is.
+- Bengali: Use আপনি (apni) form — formal but warm. West Bengal colloquial OK.
+- Nepali: Use तपाईँ (tapain) form — Darjeeling/Siliguri colloquial.
+- Hindi: Use आप form — respectful but not stiff. Street-smart tone.
+- Keep paragraph structure identical. Translate headings, body, bullet points as-is.
+- Markdown formatting (##, **, -, etc.) MUST remain untouched.
+- Links (URLs) stay exactly as they are — only translate the anchor text before/after links.
+- For each blog, provide: translated title, translated description, and full translated body.
+
+FORMAT:
+For each numbered item, provide:
+HINDI: [translation]
+BENGALI: [translation]
+NEPALI: [translation]
+
+===============================================
+BLOG POST 1: "5 Reasons Google Doesn't Show Your Business"
+===============================================
+
+[B1-TITLE]
+ENGLISH: 5 Reasons Google Doesn't Show Your Business
+CONTEXT: Blog post title. Punchy, direct. Speaks to the SMB owner whose business doesn't appear on Google search.
+
+HINDI:
+BENGALI:
+NEPALI:
+
+---
+
+[B1-DESCRIPTION]
+ENGLISH: Your competitor shows up on Google when someone searches. You don't. Here are the 5 most common reasons — and none of them require being a tech expert to fix.
+CONTEXT: SEO meta description, 1-2 sentences. Should make them want to click.
+
+HINDI:
+BENGALI:
+NEPALI:
+
+---
+
+[B1-BODY]
+ENGLISH BODY (translate everything below, keeping markdown intact):
+
+Someone in your city searches for exactly what you sell. Your competitor's name appears. Yours doesn't.
+
+This happens to thousands of small businesses in India every single day. And the worst part? Most business owners don't even know it's happening.
+
+Let's fix that. Here are the 5 most common reasons Google ignores your business.
+
+## 1. You don't have a Google Business Profile
+
+This is the single biggest mistake. **A Google Business Profile (GBP) is free.** It takes 15 minutes to set up. And without it, you literally cannot appear in local search results or Google Maps.
+
+If you haven't claimed your GBP yet, stop reading this and go do it now: [business.google.com](https://business.google.com)
+
+Fill in everything. Business name, address, phone, hours, category, photos. Every empty field is a missed opportunity.
+
+## 2. Your business category is wrong
+
+Google uses your business category to decide when to show you. If you're a "Plumber" but you've set your category to "Construction Company," you won't show up when someone searches "plumber near me."
+
+Be specific. Don't pick a broad category hoping to catch more searches. Google rewards specificity.
+
+**Wrong:** "Business Service"  
+**Right:** "Tax Preparation Service" or "GST Filing Service"
+
+## 3. You have zero reviews (or only fake ones)
+
+Google trusts businesses that have reviews from real customers. If you have 0 reviews while your competitor has 47, guess who shows up first?
+
+Start asking your happy customers to leave a Google review. Send them a direct link (you can get this from your GBP dashboard). Even 5-10 genuine reviews can make a massive difference.
+
+And don't buy fake reviews. Google's algorithm detects them, and they'll penalize you for it.
+
+## 4. Your website has no local keywords
+
+If your website says "We provide the best services" but never mentions your city name, your locality, or the specific services you offer — Google has no idea where you are or what you do.
+
+Your homepage should clearly state:
+- What you do
+- Where you do it
+- Who you do it for
+
+Example: "GST return filing for small businesses in Siliguri" is infinitely better for Google than "We provide comprehensive tax solutions for your enterprise needs."
+
+## 5. Your website loads too slowly
+
+Google actively penalizes slow websites. If your site takes more than 3 seconds to load on a mobile phone, you're losing both customers AND Google ranking.
+
+Common culprits:
+- Huge images that were never compressed
+- Cheap shared hosting that's overloaded
+- Too many plugins or scripts
+- No caching enabled
+
+You can check your speed for free at [PageSpeed Insights](https://pagespeed.web.dev). If your score is below 50, you have a problem.
+
+## The bottom line
+
+None of these fixes require coding skills. They require awareness and 30 minutes of your time. Start with #1 (Google Business Profile) — it's free and has the biggest impact.
+
+---
+
+*Confused about where to start? The team at [KhojKaro.in](https://khojkaro.in) helps Indian SMBs get their online presence right — step by step, no jargon.*
+
+---
+HINDI TRANSLATION:
+
+BENGALI TRANSLATION:
+
+NEPALI TRANSLATION:
+
+
+===============================================
+BLOG POST 2: "Why Your Website Isn't Getting You Customers"
+===============================================
+
+[B2-TITLE]
+ENGLISH: Why Your Website Isn't Getting You Customers
+CONTEXT: Blog post title. Targets SMB owners who paid for a website but aren't getting calls.
+
+HINDI:
+BENGALI:
+NEPALI:
+
+---
+
+[B2-DESCRIPTION]
+ENGLISH: You spent money on a website. It looks decent. But your phone isn't ringing. Here's what's actually going wrong — and it's probably not what you think.
+CONTEXT: SEO meta description.
+
+HINDI:
+BENGALI:
+NEPALI:
+
+---
+
+[B2-BODY]
+ENGLISH BODY (translate everything below, keeping markdown intact):
+
+You built a website. Or you paid someone to build it. Maybe it cost ₹5,000, maybe ₹50,000. It's online, it loads, it has your phone number somewhere on it.
+
+**But nobody calls.**
+
+You're not alone. This is the number one complaint we hear from small business owners across India. Let's break down why this happens.
+
+## The "brochure" problem
+
+Most small business websites in India are built like digital brochures — a homepage, an "About Us" page, a "Services" page, and a "Contact" page. That's it.
+
+Here's the thing: **nobody reads brochures.** When was the last time you picked up a pamphlet and called a business from it? Probably never.
+
+Your website needs to answer ONE question instantly: **"Can this business solve MY problem?"**
+
+If a visitor has to dig through your site to figure that out, they're gone in 3 seconds. They'll go to your competitor who makes it obvious.
+
+## Your phone number is buried
+
+We audit dozens of SMB websites every week. The most common issue? The phone number or WhatsApp link is either:
+
+- Hidden in the footer
+- On a separate "Contact" page (that nobody visits)
+- Written in tiny text
+- Not clickable on mobile (so people can't tap to call)
+
+**Fix this first.** Your phone number or WhatsApp link should be visible without scrolling, especially on mobile. Make it a button. Make it big. Make it say something like "Call now for free consultation" instead of just a number.
+
+## It's not mobile-friendly (even if you think it is)
+
+Here's a stat that matters: **over 75% of Indian internet users browse on their phones.** Not laptops. Not desktops. Phones.
+
+If your website looks weird on a phone — if the text is too small, buttons are too close together, or things overflow off-screen — you're losing three out of four potential customers.
+
+Open your website on your phone right now. Try to do the ONE thing a customer would do (call you, message you, find your address). If it takes more than 5 seconds or more than 2 taps, it's broken.
+
+## No reason to trust you
+
+When someone lands on your website for the first time, they're thinking: "Is this real? Can I trust these people?"
+
+Your website needs proof:
+- **Photos** of your actual work/shop/team (not stock images)
+- **Testimonials** from real customers (with names, not "Mr. A from Delhi")
+- **Your registration details** or certifications (subtly — in the footer or about page)
+- **Your location** (Google Maps embed helps)
+
+Without these, you're just another faceless website that could be a scam for all they know.
+
+## What to do about it
+
+You don't need to rebuild your entire website. Start with these three changes:
+
+1. **Put your WhatsApp/phone button at the top of every page** — big, green, clickable
+2. **Open your site on your phone** and fix anything that's hard to use
+3. **Add one real testimonial** with a name and what you did for them
+
+These three changes alone can double your incoming calls. We've seen it happen.
+
+---
+
+*Need help figuring out what else is wrong with your online presence? Our team at [KhojKaro.in](https://khojkaro.in) does this for businesses across India — plain language, no tech jargon.*
+
+---
+HINDI TRANSLATION:
+
+BENGALI TRANSLATION:
+
+NEPALI TRANSLATION:
+
+
+===============================================
+BLOG POST 3: "Stop Wasting Money on Facebook Ads (Do This Instead)"
+===============================================
+
+[B3-TITLE]
+ENGLISH: Stop Wasting Money on Facebook Ads (Do This Instead)
+CONTEXT: Blog post title. Provocative/attention-grabbing. Targets SMBs burning money on ads.
+
+HINDI:
+BENGALI:
+NEPALI:
+
+---
+
+[B3-DESCRIPTION]
+ENGLISH: Running Facebook or Google ads for your small business but not getting results? You're probably making these common mistakes that burn through your budget.
+CONTEXT: SEO meta description.
+
+HINDI:
+BENGALI:
+NEPALI:
+
+---
+
+[B3-BODY]
+ENGLISH BODY (translate everything below, keeping markdown intact):
+
+Every month, lakhs of small business owners in India pour money into Facebook and Google ads hoping for customers. Most of them get nothing back.
+
+Here's the uncomfortable truth: **the problem isn't that ads don't work. The problem is how you're running them.**
+
+## You're boosting posts instead of running proper ads
+
+This is the #1 money burner. Facebook shows you that "Boost Post" button every time you upload something. It's tempting — just pay ₹500 and get more "reach."
+
+But reach is not customers. Getting 10,000 people to scroll past your post is worthless if none of them need what you sell.
+
+**Proper ads** let you target:
+- People in your specific area (not all of India)
+- People who are actively looking for your service
+- People of a specific age/interest group
+
+Boosted posts just spray your content at random people. It's like throwing pamphlets from a helicopter.
+
+## Your ad goes to your homepage (or worse, your Facebook page)
+
+Someone clicks your ad. Where do they land?
+
+If the answer is "my homepage" or "my Facebook page" — you're wasting money. These are dead ends. The person has to figure out what to do next, and most won't bother.
+
+Every ad should lead to a **specific page** that does ONE thing:
+- Collects their phone number
+- Gets them to WhatsApp you
+- Shows them the exact product/service the ad mentioned
+
+This page should match what the ad promised. If your ad says "50% off AC servicing," the landing page better be about AC servicing with a way to book immediately.
+
+## You're targeting "all of India" or "everyone age 18-65"
+
+If you run a tailoring shop in Malad, why are you showing ads to people in Chennai?
+
+If you sell B2B industrial supplies, why are you targeting 18-year-old college students?
+
+**Narrow your targeting ruthlessly:**
+- Pick your city only (or even specific areas within your city)
+- Pick the age group that actually buys from you
+- Pick interests related to your service
+
+A ₹1,000 ad shown to 200 relevant people will always beat a ₹5,000 ad shown to 50,000 irrelevant people.
+
+## You have no way to track what's working
+
+Most SMB owners running ads can't answer this simple question: "Of the 10 calls you got this week, how many came from ads?"
+
+If you can't track it, you can't improve it. You're just guessing.
+
+At minimum, use:
+- A separate phone number or WhatsApp number for ads
+- UTM parameters in your ad links (ask your ad manager about this)
+- Google Analytics on your website
+
+## What to do instead of ads (when your budget is small)
+
+If your monthly ad budget is less than ₹10,000, here's the harsh truth: **you probably shouldn't be running ads at all.** Not yet.
+
+Instead, invest that money and time in:
+1. **Google Business Profile optimization** (free, long-term results)
+2. **Getting customer reviews** (free, builds trust)
+3. **WhatsApp Business** with a proper catalog (free)
+4. **Local partnerships** with complementary businesses
+
+These build a foundation. Once you're getting steady organic leads, THEN amplify with ads.
+
+---
+
+*Not sure where your marketing money should actually go? Talk to the team at [KhojKaro.in](https://khojkaro.in) — we help Indian small businesses figure this out without the jargon.*
+
+---
+HINDI TRANSLATION:
+
+BENGALI TRANSLATION:
+
+NEPALI TRANSLATION:
+
+
+===============================================
+END OF FILE
+===============================================
+
+
+
+
+# Translations
+[B1-TITLE]
+HINDI: 5 कारण क्यों Google आपका बिज़नेस नहीं दिखाता BENGALI: ৫টি কারণ কেন Google আপনার ব্যবসা দেখায় না NEPALI: ५ कारणहरू किन Google ले तपाईँको व्यापार देखाउँदैन   
+TXT
+[B1-DESCRIPTION]
+HINDI: जब कोई सर्च करता है, तो Google पर आपका कॉम्पिटिटर दिखता है, आप नहीं। यहाँ 5 सबसे आम कारण दिए गए हैं — और इन्हें ठीक करने के लिए आपको कोई टेक एक्सपर्ट होने की ज़रूरत नहीं है। BENGALI: কেউ সার্চ করলে Google-এ আপনার প্রতিযোগীর নাম আসে, আপনারটা আসে না। এর ৫টি সবচেয়ে সাধারণ কারণ নিচে দেওয়া হলো — আর এগুলো ঠিক করতে আপনার কোনো টেক এক্সপার্ট হওয়ার দরকার নেই। NEPALI: कसैले सर्च गर्दा Google मा तपाईँको प्रतिस्पर्धी देखिन्छ, तपाईँ देखिनुहुन्न। यहाँ ५ सबैभन्दा सामान्य कारणहरू छन् — र यिनलाई सुधार्न तपाईँ कुनै टेक एक्सपर्ट हुनु पर्दैन।   
+TXT
++ 1
+[B1-BODY]
+HINDI TRANSLATION:
+आपके शहर में कोई ठीक वही चीज़ सर्च करता है जो आप बेचते हैं।  आपके कॉम्पिटिटर का नाम दिखता है। आपका नहीं।  
+TXT
+भारत में हर रोज़ हज़ारों छोटे बिज़नेस के साथ ऐसा ही होता है। और सबसे बुरी बात? ज़्यादातर बिज़नेस मालिकों को पता ही नहीं होता कि ऐसा हो रहा है।   
+TXT
+चलिए इसे ठीक करते हैं। ये रहे 5 सबसे आम कारण कि Google आपके बिज़नेस को क्यों नज़रअंदाज़ करता है।   
+TXT
+1. आपका Google Business Profile नहीं है   
+TXT
+ये सबसे बड़ी गलती है। Google Business Profile (GBP) एकदम फ्री है। इसे बनाने में बस 15 मिनट लगते हैं।   
+TXT
+और इसके बिना, आप सच में लोकल सर्च रिज़ल्ट या Google Maps में नहीं दिख सकते।   
+TXT
+अगर आपने अभी तक अपना GBP क्लेम नहीं किया है, तो इसे पढ़ना छोड़ें और अभी जाकर करें: business.google.com   
+TXT
+सारी डिटेल्स भरें। बिज़नेस का नाम, पता, फोन, समय, कैटेगरी, फोटो। हर खाली जगह का मतलब है एक मौका गँवाना।   
+TXT
+2. आपकी बिज़नेस कैटेगरी गलत है   
+TXT
+Google आपकी बिज़नेस कैटेगरी से तय करता है कि आपको कब दिखाना है। अगर आप एक "Plumber" हैं लेकिन आपने अपनी कैटेगरी "Construction Company" डाल रखी है, तो जब कोई "plumber near me" सर्च करेगा, आप नहीं दिखेंगे।   
+TXT
+साफ-साफ बताएं। ज़्यादा सर्च में आने की उम्मीद में कोई बड़ी और आम कैटेगरी न चुनें। Google एकदम सटीक जानकारी को पसंद करता है।   
+TXT
+गलत: "Business Service"   
+TXT
+सही: "Tax Preparation Service" या "GST Filing Service"   
+TXT
+3. आपके पास ज़ीरो रिव्यू हैं (या सिर्फ नकली वाले हैं)
+Google उन बिज़नेस पर भरोसा करता है जिनके असली ग्राहकों के रिव्यू होते हैं। अगर आपके पास 0 रिव्यू हैं और आपके कॉम्पिटिटर के पास 47, तो सोचिए पहले कौन दिखेगा?   
+TXT
+अपने खुश ग्राहकों से Google रिव्यू देने के लिए कहना शुरू करें।   
+TXT
+उन्हें सीधा लिंक भेजें (ये आपको अपने GBP डैशबोर्ड से मिल जाएगा)।   
+TXT
+5-10 असली रिव्यू भी बहुत बड़ा फर्क ला सकते हैं।   
+TXT
+और हाँ, नकली रिव्यू मत खरीदें। Google का सिस्टम उन्हें पकड़ लेता है, और इसके लिए वो आपको सज़ा भी देगा।   
+TXT
+4. आपकी वेबसाइट में कोई लोकल कीवर्ड नहीं हैं   
+TXT
+अगर आपकी वेबसाइट कहती है "हम बेहतरीन सर्विस देते हैं" लेकिन आपके शहर का नाम, आपके इलाके, या आपकी खास सर्विस का कहीं ज़िक्र नहीं है — तो Google को कोई आइडिया नहीं है कि आप कहाँ हैं या क्या करते हैं। आपकी homepage पर ये साफ लिखा होना चाहिए:   
+TXT
+आप क्या करते हैं   
+TXT
+आप कहाँ करते हैं   
+TXT
+आप किसके लिए करते हैं   
+TXT
+उदाहरण: Google के लिए "हम आपके बिज़नेस के लिए हर तरह के टैक्स सॉल्यूशन देते हैं" से लाख गुना बेहतर है "सिलीगुड़ी में छोटे बिज़नेस के लिए GST रिटर्न फाइलिंग"।
+5. आपकी वेबसाइट बहुत धीरे खुलती है   
+TXT
+Google धीमी वेबसाइट्स को सीधे तौर पर नुकसान पहुँचाता है। अगर आपकी साइट मोबाइल फोन पर खुलने में 3 सेकंड से ज़्यादा लेती है, तो आप ग्राहक और Google रैंकिंग दोनों खो रहे हैं।   
+TXT
+आम कारण:   
+TXT
+बहुत बड़ी इमेजेज जिन्हें कभी छोटा नहीं किया गया   
+TXT
+सस्ती शेयर्ड होस्टिंग जिस पर बहुत लोड है   
+TXT
+बहुत सारे प्लगइन्स या स्क्रिप्ट्स   
+TXT
+कैशिंग चालू नहीं है   
+TXT
+आप PageSpeed Insights पर अपनी स्पीड फ्री में चेक कर सकते हैं। अगर आपका स्कोर 50 से कम है, तो दिक्कत है।   
+TXT
+पते की बात
+इनमें से किसी भी चीज़ को ठीक करने के लिए आपको कोडिंग आने की ज़रूरत नहीं है। इनके लिए बस जानकारी और आपके 30 मिनट चाहिए। #1 (Google Business Profile) से शुरू करें — ये फ्री है और इसका असर सबसे ज़्यादा होता है।   
+TXT
+समझ नहीं आ रहा कहाँ से शुरू करें? KhojKaro.in की टीम भारतीय छोटे बिज़नेस को अपना ऑनलाइन सेटअप सही करने में मदद करती है — स्टेप बाय स्टेप, बिना किसी तकनीकी उलझन के।   
+TXT
+BENGALI TRANSLATION:
+আপনার শহরে কেউ ঠিক সেই জিনিসটাই সার্চ করছে যা আপনি বিক্রি করেন।  আপনার প্রতিযোগীর নাম দেখাচ্ছে। কিন্তু আপনারটা দেখাচ্ছে না।  
+TXT
+ভারতের হাজার হাজার ছোট ব্যবসার সাথে রোজ এমনটাই হচ্ছে। আর সবচেয়ে খারাপ ব্যাপার কী জানেন? বেশিরভাগ ব্যবসায়ী টেরই পান না যে এরকম কিছু হচ্ছে।   
+TXT
+চলুন এটা ঠিক করি। এখানে ৫টি সবচেয়ে সাধারণ কারণ দেওয়া হলো যার জন্য Google আপনার ব্যবসাকে পাত্তা দেয় না।   
+TXT
+১. 
+আপনার কোনো Google Business Profile নেই 
+এটা সবচেয়ে বড় ভুল। একটি Google Business Profile (GBP) একদম ফ্রি। এটা বানাতে মাত্র ১৫ মিনিট লাগে।   
+TXT
+আর এটা ছাড়া, আপনি লোকাল সার্চ রেজাল্ট বা Google Maps-এ কোনোভাবেই আসতে পারবেন না।   
+TXT
+আপনি যদি এখনও আপনার GBP না বানিয়ে থাকেন, তবে এটা পড়া বন্ধ করুন এবং এখনই গিয়ে ওটা করুন: business.google.com   
+TXT
+সবকিছু ভরে দিন। ব্যবসার নাম, ঠিকানা, ফোন নম্বর, সময়, ক্যাটাগরি, ফটো। একটা খালি জায়গা ছেড়ে দেওয়া মানেই একটা সুযোগ হারানো।   
+TXT
+২. 
+আপনার ব্যবসার ক্যাটাগরি ভুল দেওয়া আছে 
+Google আপনার ব্যবসার ক্যাটাগরি দেখে ঠিক করে আপনাকে কখন দেখাবে। আপনি যদি একজন "Plumber" হন কিন্তু আপনার ক্যাটাগরি "Construction Company" দিয়ে রাখেন, তাহলে কেউ "plumber near me" সার্চ করলে আপনার নাম আসবে না।   
+TXT
+একদম সঠিক তথ্য দিন। বেশি সার্চ পাওয়ার আশায় কোনো বড় বা সাধারণ ক্যাটাগরি বেছে নেবেন না। Google সঠিক জিনিসটাকেই বেশি দাম দেয়।   
+TXT
+ভুল: "Business Service"   
+TXT
+ঠিক: "Tax Preparation Service" বা "GST Filing Service"   
+TXT
+৩. আপনার কোনো রিভিউ নেই (বা শুধু নকল রিভিউ আছে)
+Google সেই ব্যবসাগুলোকে বিশ্বাস করে যাদের আসল গ্রাহকদের রিভিউ আছে। আপনার যদি ০টা রিভিউ থাকে আর আপনার প্রতিযোগীর ৪৭টা থাকে, তাহলে ভেবে দেখুন আগে কার নাম আসবে?   
+TXT
+আপনার খুশি গ্রাহকদের Google-এ একটা রিভিউ দিতে বলা শুরু করুন।   
+TXT
+তাদের সরাসরি লিংক পাঠিয়ে দিন (এটা আপনি আপনার GBP ড্যাশবোর্ড থেকেই পেয়ে যাবেন)।   
+TXT
+এমনকি ৫-১০টা আসল রিভিউ-ও অনেক বড় তফাত গড়ে দিতে পারে।   
+TXT
+আর হ্যাঁ, নকল রিভিউ কিনবেন না। Google-এর সিস্টেম সেটা ঠিক ধরে ফেলবে, আর এর জন্য আপনাকে জরিমানাও করবে।   
+TXT
+৪. 
+আপনার ওয়েবসাইটে কোনো লোকাল কিওয়ার্ড নেই 
+আপনার ওয়েবসাইটে যদি লেখা থাকে "আমরা সেরা সার্ভিস দিই" কিন্তু আপনার শহরের নাম, এলাকার নাম বা আপনার নির্দিষ্ট সার্ভিসের কথা কোথাও উল্লেখ না থাকে — তাহলে Google বুঝতেই পারবে না আপনি কোথায় আছেন আর কী করেন। আপনার homepage-এ পরিষ্কারভাবে লেখা উচিত:   
+TXT
+আপনি কী করেন   
+TXT
+কোথায় করেন   
+TXT
+কাদের জন্য করেন   
+TXT
+উদাহরণ: Google-এর কাছে "আমরা আপনার ব্যবসার জন্য সেরা ট্যাক্স সলিউশন দিই"-এর চেয়ে "শিলিগুড়িতে ছোট ব্যবসার জন্য GST রিটার্ন ফাইলিং" লেখাটা অনেক বেশি কার্যকরী।
+৫. 
+আপনার ওয়েবসাইট খুব দেরিতে খোলে 
+Google ধীর গতির ওয়েবসাইটগুলোকে সরাসরি নিচে নামিয়ে দেয়। আপনার সাইট যদি মোবাইল ফোনে খুলতে ৩ সেকেন্ডের বেশি সময় নেয়, তাহলে আপনি গ্রাহক এবং Google র‍্যাংকিং দুটোই হারাচ্ছেন।   
+TXT
+সাধারণ কারণগুলো হলো:   
+TXT
+অনেক বড় সাইজের ছবি যেগুলো কখনো ছোট করা হয়নি   
+TXT
+সস্তা শেয়ার্ড হোস্টিং যেটায় অনেক লোড আছে   
+TXT
+অনেক বেশি প্লাগিন বা স্ক্রিপ্ট   
+TXT
+ক্যাশিং চালু করা নেই   
+TXT
+আপনি PageSpeed Insights-এ গিয়ে বিনামূল্যে আপনার স্পিড চেক করতে পারেন। আপনার স্কোর যদি ৫০-এর কম হয়, তাহলে আপনার ওয়েবসাইটের সমস্যা আছে।   
+TXT
+আসল কথা
+এগুলোর কোনোটা ঠিক করার জন্যই আপনার কোডিং জানার দরকার নেই। এর জন্য শুধু একটু সজাগ হওয়া আর আপনার ৩০ মিনিট সময় দরকার। #১ (Google Business Profile) দিয়ে শুরু করুন — এটা ফ্রি এবং এর প্রভাব সবচেয়ে বেশি।   
+TXT
+বুঝতে পারছেন না কোথা থেকে শুরু করবেন? KhojKaro.in-এর টিম ভারতের ছোট ব্যবসায়ীদের তাদের অনলাইন সেটআপ ঠিক করতে সাহায্য করে — ধাপে ধাপে, কোনো কঠিন প্রযুক্তিগত কথা ছাড়া।   
+TXT
+NEPALI TRANSLATION:
+तपाईँको सहरमा कसैले ठ्याक्कै त्यही कुरा सर्च गर्छ जुन तपाईँ बेच्नुहुन्छ।  तपाईँको प्रतिस्पर्धीको नाम देखिन्छ। तपाईँको देखिँदैन।  
+TXT
+भारतमा हरेक दिन हजारौँ साना व्यापारीहरूसँग यस्तै हुन्छ। र सबैभन्दा नराम्रो कुरा? धेरैजसो व्यापारका मालिकहरूलाई यो भइरहेको छ भन्ने कुरा थाहै हुँदैन।   
+TXT
+ल यसलाई सुधारौँ। यहाँ ५ वटा सबैभन्दा सामान्य कारणहरू छन् जसले गर्दा Google ले तपाईँको व्यापारलाई वास्ता गर्दैन।   
+TXT
+१. 
+तपाईँसँग Google Business Profile छैन 
+यो सबैभन्दा ठुलो गल्ती हो। एउटा Google Business Profile (GBP) एकदम फ्री हुन्छ। यो बनाउन जम्मा १५ मिनेट लाग्छ।   
+TXT
+र यो बिना, तपाईँ साँच्चै नै लोकल सर्च नतिजा वा Google Maps मा देखिन सक्नुहुन्न।   
+TXT
+यदि तपाईँले अहिलेसम्म आफ्नो GBP क्लेम गर्नुभएको छैन भने, यो पढ्न छोड्नुहोस् र अहिले नै गएर गरिहाल्नुहोस्: business.google.com   
+TXT
+सबै कुरा भर्नुहोस्। व्यापारको नाम, ठेगाना, फोन नम्बर, समय, क्याटागोरी, फोटोहरू। एउटा खाली ठाउँ छोड्नु भनेको एउटा मौका गुमाउनु हो।   
+TXT
+२. 
+तपाईँको व्यापारको क्याटागोरी गलत छ 
+Google ले तपाईँको व्यापारको क्याटागोरी हेरेर तपाईँलाई कहिले देखाउने भनेर निर्णय गर्छ। यदि तपाईँ एउटा "Plumber" हुनुहुन्छ तर तपाईँले आफ्नो क्याटागोरी "Construction Company" राख्नुभएको छ भने, कसैले "plumber near me" सर्च गर्दा तपाईँ देखिनुहुन्न।   
+TXT
+एकदम स्पष्ट हुनुहोस्। धेरै सर्चमा आउने आशमा कुनै ठुलो र सामान्य क्याटागोरी नछान्नुहोस्। Google ले सही र सटीक कुरालाई धेरै महत्त्व दिन्छ।   
+TXT
+गलत: "Business Service"   
+TXT
+सही: "Tax Preparation Service" वा "GST Filing Service"   
+TXT
+३. तपाईँसँग शून्य (0) रिभ्यु छन् (वा नक्कली मात्र छन्)
+Google ले ती व्यापारहरूलाई विश्वास गर्छ जसका सक्कली ग्राहकहरूका रिभ्यु हुन्छन्। यदि तपाईँसँग ० रिभ्यु छन् र तपाईँको प्रतिस्पर्धीसँग ४७ वटा छन् भने, सोच्नुहोस् त पहिले को देखिन्छ?   
+TXT
+आफ्ना खुसी ग्राहकहरूलाई Google रिभ्यु दिनको लागि माग्न सुरु गर्नुहोस्।   
+TXT
+उनीहरूलाई सिधै लिंक पठाउनुहोस् (यो तपाईँले आफ्नो GBP ड्यासबोर्डबाट पाउन सक्नुहुन्छ)।   
+TXT
+५-१० वटा सक्कली रिभ्युले पनि धेरै ठुलो फरक पार्न सक्छ।   
+TXT
+र नक्कली रिभ्यु किन्दै नकिन्नुहोस्। Google को सिस्टमले तिनीहरूलाई पत्ता लगाउँछ, र त्यसको लागि तपाईँलाई सजाय पनि दिन्छ।   
+TXT
+४. 
+तपाईँको वेबसाइटमा कुनै लोकल किवर्ड छैनन् 
+यदि तपाईँको वेबसाइटमा "हामी उत्कृष्ट सेवा दिन्छौँ" लेखिएको छ तर तपाईँको सहरको नाम, तपाईँको ठाउँ, वा तपाईँले दिने खास सेवाको कहिल्यै उल्लेख गरिएको छैन भने — Google लाई तपाईँ कहाँ हुनुहुन्छ वा के गर्नुहुन्छ भन्ने कुराको कुनै पत्तो हुँदैन। तपाईँको homepage मा स्पष्ट रूपमा यो लेखिएको हुनुपर्छ:   
+TXT
+तपाईँ के गर्नुहुन्छ   
+TXT
+तपाईँ कहाँ गर्नुहुन्छ   
+TXT
+तपाईँ कसको लागि गर्नुहुन्छ   
+TXT
+उदाहरण: Google को लागि "हामी तपाईँको व्यापारको लागि सम्पूर्ण ट्याक्सको समाधान दिन्छौँ" भन्दा "सिलगढीमा साना व्यापारहरूको लागि GST रिटर्न फाइलिङ" लेखिएको धेरै राम्रो हो।
+५. 
+तपाईँको वेबसाइट एकदम ढिलो खुल्छ 
+Google ले ढिलो खुल्ने वेबसाइटहरूलाई सिधै तल झारिदिन्छ। यदि तपाईँको साइट मोबाइल फोनमा खुल्न ३ सेकेन्डभन्दा बढी समय लिन्छ भने, तपाईँले ग्राहक र Google र्याङ्किङ दुवै गुमाउँदै हुनुहुन्छ।   
+TXT
+सामान्य कारणहरू:   
+TXT
+धेरै ठुला साइजका फोटोहरू जसलाई कहिल्यै सानो बनाइएन   
+TXT
+धेरै लोड भएको सस्तो सेयर्ड होस्टिङ   
+TXT
+धेरै वटा प्लगइन वा स्क्रिप्टहरू   
+TXT
+क्यासिङ चालु गरिएको छैन   
+TXT
+तपाईँ PageSpeed Insights मा गएर सित्तैमा आफ्नो स्पिड चेक गर्न सक्नुहुन्छ। यदि तपाईँको स्कोर ५० भन्दा कम छ भने, समस्या छ।   
+TXT
+मुख्य कुरा
+यीमध्ये कुनै पनि कुरालाई सुधार्नको लागि तपाईँले कोडिङ जान्नु पर्दैन। यसको लागि अलिकति जानकारी र तपाईँको ३० मिनेट समय चाहिन्छ। #१ (Google Business Profile) बाट सुरु गर्नुहोस् — यो फ्री छ र यसको असर सबैभन्दा धेरै हुन्छ।   
+TXT
+कहाँबाट सुरु गर्ने भनेर कन्फ्युज हुनुहुन्छ? KhojKaro.in को टिमले भारतका साना व्यापारीहरूलाई उनीहरूको अनलाइन सेटअप ठीक गर्न मद्दत गर्छ — स्टेप बाइ स्टेप, कुनै गाह्रो प्राविधिक कुरा बिना।   
+TXT
+===============================================
+BLOG POST 2: "Why Your Website Isn't Getting You Customers"
+[B2-TITLE]
+HINDI: आपकी वेबसाइट आपके लिए ग्राहक क्यों नहीं ला रही है BENGALI: আপনার ওয়েবসাইট আপনার জন্য গ্রাহক কেন আনছে না NEPALI: तपाईँको वेबसाइटले तपाईँलाई किन ग्राहक ल्याइरहेको छैन   
+TXT
+[B2-DESCRIPTION]
+HINDI: आपने एक वेबसाइट पर पैसे खर्च किए।  वो देखने में ठीक-ठाक है। लेकिन आपका फोन बज नहीं रहा है। यहाँ जानिए कि असल में क्या गलत हो रहा है — और ये वो नहीं है जो आप सोच रहे हैं। BENGALI: আপনি একটা ওয়েবসাইটের পিছনে টাকা খরচ করেছেন।  সেটা দেখতেও বেশ ভালো। কিন্তু আপনার ফোনে কোনো কল আসছে না। আসলে কোথায় ভুল হচ্ছে তা এখানে বলা হলো — আর আপনি যা ভাবছেন হয়তো ব্যাপারটা তা নয়। NEPALI: तपाईँले वेबसाइटमा पैसा खर्च गर्नुभयो।  यो हेर्दा राम्रो छ। तर तपाईँको फोन बजिरहेको छैन। खासमा कहाँ गल्ती भइरहेको छ भनेर यहाँ जान्नुहोस् — र यो सायद त्यो होइन जुन तपाईँ सोचिरहनुभएको छ।   
+TXT
++ 1
+[B2-BODY]
+HINDI TRANSLATION:
+आपने एक वेबसाइट बनवाई। 
+या किसी को बनाने के लिए पैसे दिए। शायद इसका खर्च ₹5,000 आया हो, या शायद ₹50,000। 
+ये ऑनलाइन है, खुलती भी है, और इस पर कहीं आपका फोन नंबर भी है।  
+TXT
++ 1
+लेकिन कोई कॉल नहीं करता।
+आप अकेले नहीं हैं। 
+भारत भर में छोटे बिज़नेस मालिकों से हमें सबसे ज़्यादा यही शिकायत सुनने को मिलती है। चलिए समझते हैं ऐसा क्यों होता है।   
+TXT
++ 1
+"ब्रोशर" वाली दिक्कत
+भारत में ज़्यादातर छोटे बिज़नेस की वेबसाइट्स डिजिटल ब्रोशर की तरह बनाई जाती हैं — एक homepage, एक "About Us" पेज, एक "Services" पेज, और एक "Contact" पेज। 
+बस इतना ही।  
+TXT
+बात ये है: कोई ब्रोशर नहीं पढ़ता। आपने आखिरी बार कब किसी पर्चे को उठाया और उसमें से देखकर किसी बिज़नेस को कॉल किया था? 
+शायद कभी नहीं।  
+TXT
+आपकी वेबसाइट को एक सवाल का तुरंत जवाब देना चाहिए: "क्या ये बिज़नेस मेरी दिक्कत हल कर सकता है?"
+अगर किसी विजिटर को ये जानने के लिए आपकी साइट पर बहुत खोजना पड़े, तो वो 3 सेकंड में चला जाएगा। 
+वो आपके उस कॉम्पिटिटर के पास जाएगा जिसने ये सब साफ-साफ बता रखा है।  
+TXT
+आपका फोन नंबर कहीं छिपा हुआ है
+हम हर हफ्ते कई SMB वेबसाइट्स चेक करते हैं। 
+सबसे आम दिक्कत? फोन नंबर या WhatsApp लिंक या तो:  
+TXT
+नीचे फुटर में छिपा होता है
+किसी अलग "Contact" पेज पर होता है (जहाँ कोई नहीं जाता)
+बहुत छोटे अक्षरों में लिखा होता है
+मोबाइल पर क्लिक नहीं होता (ताकि लोग टैप करके कॉल कर सकें)
+सबसे पहले इसे ठीक करें। आपका फोन नंबर या WhatsApp लिंक बिना स्क्रॉल किए दिखना चाहिए, खासकर मोबाइल पर। 
+इसे एक बटन बनाएं। इसे बड़ा बनाएं। सिर्फ नंबर लिखने के बजाय "Call now for free consultation" जैसा कुछ लिखें।   
+TXT
++ 1
+ये मोबाइल-फ्रेंडली नहीं है (भले ही आपको ऐसा लगता हो)
+ये आँकड़ा बहुत मायने रखता है: भारत में 75% से ज़्यादा इंटरनेट यूज़र्स अपने फोन पर ब्राउज़ करते हैं। लैपटॉप पर नहीं। 
+डेस्कटॉप पर नहीं। फोन पर।  
+TXT
+अगर आपकी वेबसाइट फोन पर अजीब दिखती है — अगर टेक्स्ट बहुत छोटा है, बटन एक-दूसरे के बहुत करीब हैं, या चीज़ें स्क्रीन से बाहर जा रही हैं — तो आप चार में से तीन संभावित ग्राहकों को खो रहे हैं। 
+अभी अपने फोन पर अपनी वेबसाइट खोलें। वो एक काम करने की कोशिश करें जो कोई ग्राहक करेगा (आपको कॉल करना, मैसेज करना, आपका पता खोजना)। अगर इसमें 5 सेकंड या 2 टैप से ज़्यादा लगते हैं, तो इसमें गड़बड़ है।   
+TXT
++ 2
+आप पर भरोसा करने की कोई वजह नहीं
+जब कोई पहली बार आपकी वेबसाइट पर आता है, तो वो सोच रहा होता है: "क्या ये असली है? क्या मैं इन लोगों पर भरोसा कर सकता हूँ?" 
+आपकी वेबसाइट को सबूत चाहिए:  
+TXT
+आपके असली काम/दुकान/टीम की फोटो (स्टॉक इमेज नहीं)
+असली ग्राहकों के टेस्टिमोनियल्स (नाम के साथ, "Mr. A from Delhi" नहीं)
+आपकी रजिस्ट्रेशन डिटेल्स या सर्टिफिकेट (हल्के से — फुटर या about पेज में)
+आपकी लोकेशन (Google Maps एम्बेड करने से मदद मिलती है)
+इनके बिना, आप बस एक और गुमनाम वेबसाइट हैं जो उनके लिए कोई स्कैम भी हो सकती है।   
+TXT
+इसके लिए क्या करें
+आपको अपनी पूरी वेबसाइट दोबारा बनाने की ज़रूरत नहीं है। 
+इन तीन बदलावों से शुरू करें:  
+TXT
+अपना WhatsApp/फोन बटन हर पेज के टॉप पर रखें — बड़ा, हरा, और क्लिक होने वाला
+अपने फोन पर अपनी साइट खोलें और जो कुछ भी इस्तेमाल करने में मुश्किल है उसे ठीक करें
+एक असली टेस्टिमोनियल डालें नाम के साथ और ये बताएं कि आपने उनके लिए क्या किया
+सिर्फ ये तीन बदलाव ही आपकी आने वाली कॉल्स को दोगुना कर सकते हैं। 
+हमने ऐसा होते देखा है।  
+TXT
+पता नहीं चल रहा कि आपके ऑनलाइन सेटअप में और क्या गलत है? 
+KhojKaro.in की हमारी टीम भारत भर के बिज़नेस के लिए यही करती है — आसान भाषा में, बिना किसी तकनीकी उलझन के।  
+TXT
+BENGALI TRANSLATION:
+আপনি একটা ওয়েবসাইট বানালেন। 
+বা কাউকে দিয়ে বানানোর জন্য টাকা দিলেন। হয়তো এর খরচ ৫,০০০ টাকা হয়েছে, বা হয়তো ৫০,০০০ টাকা। 
+এটা অনলাইনে আছে, খোলেও, আর এতে কোথাও আপনার ফোন নম্বরও দেওয়া আছে।  
+TXT
++ 1
+কিন্তু কেউ কল করে না।
+আপনি একা নন। 
+সারা ভারত জুড়ে ছোট ব্যবসায়ীদের কাছ থেকে আমরা সবচেয়ে বেশি এই অভিযোগটাই শুনি। চলুন দেখি এমনটা কেন হয়।   
+TXT
++ 1
+"ব্রোশিওর" সমস্যা
+ভারতে বেশিরভাগ ছোট ব্যবসার ওয়েবসাইটগুলো ডিজিটাল ব্রোশিওরের মতো বানানো হয় — একটা homepage, একটা "About Us" পেজ, একটা "Services" পেজ, আর একটা "Contact" পেজ। 
+ব্যাস এইটুকুই।  
+TXT
+আসল কথাটা হলো: কেউ ব্রোশিওর পড়ে না। আপনি শেষ কবে কোনো প্যামফ্লেট হাতে নিয়ে সেখান থেকে দেখে কোনো ব্যবসায়িক কাজে কল করেছিলেন? 
+হয়তো কখনোই না।  
+TXT
+আপনার ওয়েবসাইটকে একটা প্রশ্নের উত্তর সাথে সাথে দিতে হবে: "এই ব্যবসাটা কি আমার সমস্যার সমাধান করতে পারবে?"
+যদি কোনো ভিজিটরকে এটা জানার জন্য আপনার সাইটে অনেক ঘাঁটাঘাঁটি করতে হয়, তবে সে ৩ সেকেন্ডেই চলে যাবে। 
+সে আপনার সেই প্রতিযোগীর কাছে যাবে যে এটা পরিষ্কারভাবে জানিয়ে রেখেছে।  
+TXT
+আপনার ফোন নম্বর কোথাও লুকিয়ে আছে
+আমরা প্রতি সপ্তাহে অনেক ছোট ব্যবসার ওয়েবসাইট চেক করি। 
+সবচেয়ে সাধারণ সমস্যা? ফোন নম্বর বা WhatsApp লিংক হয়তো:  
+TXT
+নিচে ফুটারের মধ্যে লুকিয়ে আছে
+আলাদা একটা "Contact" পেজে আছে (যেখানে কেউ যায় না)
+খুব ছোট অক্ষরে লেখা আছে
+মোবাইলে ক্লিক করা যায় না (যাতে মানুষ ট্যাপ করে কল করতে পারে)
+সবার আগে এটা ঠিক করুন। আপনার ফোন নম্বর বা WhatsApp লিংক স্ক্রল না করেই চোখে পড়া উচিত, বিশেষ করে মোবাইলে। 
+এটাকে একটা বাটন বানান। বড় করে দিন। শুধু নম্বর লেখার বদলে "Call now for free consultation" জাতীয় কিছু লিখুন।   
+TXT
++ 1
+এটা মোবাইল-ফ্রেন্ডলি নয় (এমনকি আপনি যদি ভেবেও থাকেন)
+এই তথ্যটা খুব জরুরি: ভারতের ৭৫%-এর বেশি ইন্টারনেট ইউজার তাদের ফোনে ব্রাউজ করে। ল্যাপটপে নয়। 
+ডেস্কটপেও নয়। ফোনে।  
+TXT
+যদি আপনার ওয়েবসাইট ফোনে দেখতে অদ্ভুত লাগে — যদি টেক্সট খুব ছোট হয়, বাটনগুলো একে অপরের খুব কাছাকাছি থাকে, বা কোনো জিনিস স্ক্রিনের বাইরে চলে যায় — তবে আপনি চারজনের মধ্যে তিনজন সম্ভাব্য গ্রাহককে হারাচ্ছেন। 
+এখনই আপনার ফোনে আপনার ওয়েবসাইট খুলুন। এমন একটা কাজ করার চেষ্টা করুন যেটা একজন গ্রাহক করবে (আপনাকে কল করা, মেসেজ করা, আপনার ঠিকানা খোঁজা)। যদি এতে ৫ সেকেন্ড বা ২ ট্যাপের বেশি সময় লাগে, তবে এতে গন্ডগোল আছে।   
+TXT
++ 2
+আপনাকে বিশ্বাস করার কোনো কারণ নেই
+যখন কেউ প্রথমবার আপনার ওয়েবসাইটে আসে, তখন সে ভাবে: "এটা কি আসল? আমি কি এদের বিশ্বাস করতে পারি?" 
+আপনার ওয়েবসাইটে প্রমাণ থাকতে হবে:  
+TXT
+আপনার আসল কাজ/দোকান/টিমের ফটো (স্টক ইমেজ নয়)
+আসল গ্রাহকদের টেস্টিমোনিয়াল (নাম সহ, "Mr. A from Delhi" নয়)
+আপনার রেজিস্ট্রেশন ডিটেইলস বা সার্টিফিকেট (হালকা করে — ফুটারে বা about পেজে)
+আপনার লোকেশন (Google Maps এম্বেড করলে সুবিধা হয়)
+এগুলো ছাড়া, আপনি শুধুই আরেকটা পরিচয়হীন ওয়েবসাইট যা তাদের কাছে কোনো স্ক্যামও হতে পারে।   
+TXT
+এর জন্য কী করবেন
+আপনাকে পুরো ওয়েবসাইট আবার বানাতে হবে না। 
+এই তিনটে পরিবর্তন দিয়ে শুরু করুন:  
+TXT
+১. আপনার WhatsApp/ফোন বাটনটা প্রতিটা পেজের একদম উপরে রাখুন — বড়, সবুজ আর ক্লিক করা যায় এমন
+২. আপনার ফোনে আপনার সাইট খুলুন আর ব্যবহার করতে অসুবিধা হয় এমন সবকিছু ঠিক করুন
+৩. নাম সহ একটা আসল টেস্টিমোনিয়াল দিন আর জানান আপনি তার জন্য কী কাজ করেছেন
+শুধু এই তিনটে পরিবর্তনই আপনার আসা কলের সংখ্যা দ্বিগুণ করে দিতে পারে। 
+আমরা এমনটা হতে দেখেছি।  
+TXT
+আপনার অনলাইন সেটআপে আর কী ভুল আছে সেটা বুঝতে পারছেন না? 
+KhojKaro.in-এ আমাদের টিম সারা ভারতের ব্যবসায়ীদের জন্য এই কাজটাই করে — সহজ ভাষায়, কোনো কঠিন প্রযুক্তিগত কথা ছাড়া।  
+TXT
+NEPALI TRANSLATION:
+तपाईँले एउटा वेबसाइट बनाउनुभयो। 
+वा कसैलाई बनाउनको लागि पैसा दिनुभयो। सायद यसको खर्च ₹5,000 भयो होला, वा सायद ₹50,000। 
+यो अनलाइन छ, खुल्छ पनि, र यसमा कतै तपाईँको फोन नम्बर पनि छ।  
+TXT
++ 1
+तर कसैले कल गर्दैन।
+तपाईँ एक्लो हुनुहुन्न। 
+भारतभरिका साना व्यापारीहरूबाट हामीले सबैभन्दा धेरै सुन्ने गुनासो यही हो। आउनुहोस् बुझौँ यस्तो किन हुन्छ।   
+TXT
++ 1
+"ब्रोसर" (brochure) को समस्या
+भारतमा धेरैजसो साना व्यापारका वेबसाइटहरू डिजिटल ब्रोसर जस्तै बनाइएका हुन्छन् — एउटा homepage, एउटा "About Us" पेज, एउटा "Services" पेज, र एउटा "Contact" पेज। 
+यति नै हो।  
+TXT
+कुरा के हो भने: कसैले ब्रोसर पढ्दैन। तपाईँले अन्तिम पटक कहिले कुनै पम्प्लेट उठाएर त्यसमा हेरेर कुनै व्यापारलाई कल गर्नुभएको थियो? 
+सायद कहिल्यै छैन।  
+TXT
+तपाईँको वेबसाइटले एउटा प्रश्नको तुरुन्तै जवाफ दिनुपर्छ: "के यो व्यापारले मेरो समस्या समाधान गर्न सक्छ?"
+यदि कुनै भिजिटरलाई यो कुरा बुझ्न तपाईँको साइटमा धेरै खोज्नु पर्यो भने, ऊ ३ सेकेन्डमै जान्छ। 
+ऊ तपाईँको त्यो प्रतिस्पर्धीकहाँ जान्छ जसले यो कुरा प्रस्टसँग राखेको छ।  
+TXT
+तपाईँको फोन नम्बर कतै लुकेको छ
+हामी हरेक हप्ता धेरै साना व्यापारका वेबसाइटहरू चेक गर्छौँ। 
+सबैभन्दा सामान्य समस्या? फोन नम्बर वा WhatsApp लिंक कि त:  
+TXT
+तल फुटरमा लुकेको हुन्छ
+छुट्टै "Contact" पेजमा हुन्छ (जहाँ कोही जाँदैन)
+धेरै साना अक्षरहरूमा लेखिएको हुन्छ
+मोबाइलमा क्लिक हुँदैन (ताकि मानिसहरूले ट्याप गरेर कल गर्न सकून्)
+सबैभन्दा पहिले यसलाई ठीक गर्नुहोस्। तपाईँको फोन नम्बर वा WhatsApp लिंक स्क्रोल नगरीकन देखिनुपर्छ, विशेष गरी मोबाइलमा। 
+यसलाई एउटा बटन बनाउनुहोस्। यसलाई ठुलो बनाउनुहोस्। खाली नम्बर लेख्नुको सट्टा "Call now for free consultation" जस्तो केही लेख्नुहोस्।   
+TXT
++ 1
+यो मोबाइल-फ्रेन्डली छैन (तपाईँलाई त्यस्तो लागे तापनि)
+यो तथ्याङ्कले धेरै फरक पार्छ: भारतमा ७५% भन्दा बढी इन्टरनेट प्रयोगकर्ताहरू आफ्नो फोनमा चलाउँछन्। ल्यापटपमा होइन। 
+डेस्कटपमा होइन। फोनमा।  
+TXT
+यदि तपाईँको वेबसाइट फोनमा अनौठो देखिन्छ — यदि टेक्स्ट धेरै सानो छ, बटनहरू एकअर्काको धेरै नजिक छन्, वा कुराहरू स्क्रिन बाहिर गइरहेका छन् भने — तपाईँले चार मध्ये तीन जना सम्भावित ग्राहकहरूलाई गुमाउँदै हुनुहुन्छ। 
+अहिले नै आफ्नो फोनमा आफ्नो वेबसाइट खोल्नुहोस्। त्यो एउटा काम गर्ने कोसिस गर्नुहोस् जुन एउटा ग्राहकले गर्छ (तपाईँलाई कल गर्ने, म्यासेज गर्ने, तपाईँको ठेगाना खोज्ने)। यदि यसमा ५ सेकेन्ड वा २ ट्याप भन्दा बढी लाग्छ भने, यसमा गडबडी छ।   
+TXT
++ 2
+तपाईँलाई विश्वास गर्ने कुनै कारण छैन
+जब कोही पहिलो पटक तपाईँको वेबसाइटमा आउँछ, तब उसले सोचिरहेको हुन्छ: "के यो साँच्चै हो? के म यिनीहरूलाई विश्वास गर्न सक्छु?" 
+तपाईँको वेबसाइटलाई प्रमाण चाहिन्छ:  
+TXT
+तपाईँको असली काम/पसल/टिमको फोटोहरू (स्टक इमेज होइन)
+असली ग्राहकहरूका टेस्टिमोनियलहरू (नाम सहित, "Mr. A from Delhi" होइन)
+तपाईँको रजिस्ट्रेसन विवरण वा सर्टिफिकेट (हल्का रूपमा — फुटर वा about पेजमा)
+तपाईँको लोकेसन (Google Maps इम्बेड गर्दा मद्दत पुग्छ)
+यी कुराहरू बिना, तपाईँ केवल अर्को नाम नभएको वेबसाइट हुनुहुन्छ जुन उनीहरूको लागि कुनै स्क्याम (scam) पनि हुन सक्छ।   
+TXT
+यसको लागि के गर्ने
+तपाईँले आफ्नो पूरै वेबसाइट फेरि बनाउनु पर्दैन। 
+यी तीनवटा परिवर्तनहरूबाट सुरु गर्नुहोस्:  
+TXT
+१. आफ्नो WhatsApp/फोन बटन हरेक पेजको माथि राख्नुहोस् — ठुलो, हरियो, र क्लिक गर्न मिल्ने
+२. आफ्नो फोनमा आफ्नो साइट खोल्नुहोस् र प्रयोग गर्न गाह्रो हुने जुनसुकै कुरालाई ठीक गर्नुहोस्
+३. नाम सहित एउटा असली टेस्टिमोनियल राख्नुहोस् र तपाईँले उनीहरूको लागि के गर्नुभयो भनेर बताउनुहोस्
+यी तीनवटा परिवर्तनले मात्रै तपाईँलाई आउने कलहरूलाई दोब्बर बनाउन सक्छ। 
+हामीले यस्तो भएको देखेका छौँ।  
+TXT
+तपाईँको अनलाइन सेटअपमा अरू के गल्ती छ भनेर पत्ता लगाउन मद्दत चाहिन्छ? 
+KhojKaro.in मा हाम्रो टिमले भारतभरिका व्यापारहरूको लागि यही काम गर्छ — सजिलो भाषामा, कुनै गाह्रो प्राविधिक कुरा बिना।  
+TXT
+===============================================
+BLOG POST 3: "Stop Wasting Money on Facebook Ads (Do This Instead)"
+[B3-TITLE]
+HINDI: Facebook Ads पर पैसे बर्बाद करना बंद करें (इसके बजाय ये करें) BENGALI: Facebook Ads-এ টাকা নষ্ট করা বন্ধ করুন (এর বদলে এটা করুন) NEPALI: Facebook Ads मा पैसा बर्बाद गर्न बन्द गर्नुहोस् (यसको सट्टा यो गर्नुहोस्)   
+TXT
+[B3-DESCRIPTION]
+HINDI: अपने छोटे बिज़नेस के लिए Facebook या Google ads चला रहे हैं लेकिन कोई फायदा नहीं हो रहा? आप शायद ये आम गलतियाँ कर रहे हैं जो आपका बजट खत्म कर रही हैं। BENGALI: আপনার ছোট ব্যবসার জন্য Facebook বা Google ads চালাচ্ছেন কিন্তু কোনো লাভ হচ্ছে না? আপনি হয়তো এই সাধারণ ভুলগুলো করছেন যার ফলে আপনার টাকা জলে যাচ্ছে। NEPALI: आफ्नो सानो व्यापारको लागि Facebook वा Google ads चलाइरहनुभएको छ तर कुनै नतिजा आइरहेको छैन? तपाईँ सायद यी सामान्य गल्तीहरू गर्दै हुनुहुन्छ जसले तपाईँको बजेट सिध्याइरहेको छ।   
+TXT
++ 1
+[B3-BODY]
+HINDI TRANSLATION:
+हर महीने, भारत में लाखों छोटे बिज़नेस के मालिक ग्राहकों की उम्मीद में Facebook और Google ads में पैसा बहाते हैं। 
+उनमें से ज़्यादातर को बदले में कुछ नहीं मिलता।  
+TXT
+यहाँ कड़वा सच ये है: दिक्कत ये नहीं है कि ads काम नहीं करते। 
+दिक्कत ये है कि आप उन्हें कैसे चला रहे हैं।  
+TXT
+आप सही ads चलाने के बजाय post को boost कर रहे हैं
+ये पैसे बर्बाद करने का #1 तरीका है। जब भी आप कुछ अपलोड करते हैं, Facebook आपको वो "Boost Post" बटन दिखाता है। 
+ये लालच देता है — बस ₹500 दें और ज़्यादा "reach" पाएं।  
+TXT
++ 1
+लेकिन reach ग्राहक नहीं होती। 10,000 लोगों को आपके post को स्क्रॉल करते हुए गुज़र जाने देने का कोई मतलब नहीं है अगर उनमें से किसी को भी आपकी चीज़ की ज़रूरत नहीं है। 
+सही ads आपको इन्हें टारगेट करने देते हैं:  
+TXT
++ 1
+आपके खास इलाके के लोग (पूरा भारत नहीं)
+वो लोग जो सच में आपकी सर्विस खोज रहे हैं
+एक खास उम्र/इंटरेस्ट वाले लोग
+Boosted post बस आपका कंटेंट किसी को भी दिखा देते हैं। 
+ये हेलीकॉप्टर से पर्चे फेंकने जैसा है।  
+TXT
+आपका ad आपके homepage (या उससे भी बदतर, आपके Facebook पेज) पर जाता है
+किसी ने आपके ad पर क्लिक किया। 
+वो कहाँ पहुँचते हैं?  
+TXT
+अगर जवाब "मेरे homepage" या "मेरे Facebook पेज" है — तो आप पैसे बर्बाद कर रहे हैं। 
+ये बंद रास्ते हैं। इंसान को खुद समझना पड़ता है कि आगे क्या करना है, और ज़्यादातर लोग इतनी जहमत नहीं उठाते। 
+हर ad को एक खास पेज पर ले जाना चाहिए जो एक काम करे:  
+TXT
++ 1
+उनका फोन नंबर ले
+उनसे WhatsApp पर आपको मैसेज करवाए
+उन्हें ठीक वही प्रोडक्ट/सर्विस दिखाए जिसका ad में ज़िक्र था
+ये पेज ad के वादे से मेल खाना चाहिए। अगर आपका ad "50% off AC servicing" कहता है, तो landing page AC सर्विसिंग के बारे में ही होना चाहिए जहाँ तुरंत बुकिंग का विकल्प हो।   
+TXT
++ 1
+आप "पूरे भारत" या "18-65 साल के सभी लोगों" को टारगेट कर रहे हैं
+अगर आप मलाड में कपड़े सिलाई की दुकान चलाते हैं, तो आप चेन्नई के लोगों को ads क्यों दिखा रहे हैं? अगर आप B2B इंडस्ट्रियल सप्लाई बेचते हैं, तो आप 18 साल के कॉलेज स्टूडेंट्स को क्यों टारगेट कर रहे हैं? 
+अपनी टारगेटिंग को सख्ती से छोटा करें:  
+TXT
++ 1
+सिर्फ अपना शहर चुनें (या अपने शहर के खास इलाके)
+वो उम्र चुनें जो असल में आपसे खरीदती है
+अपनी सर्विस से जुड़े इंटरेस्ट चुनें
+200 काम के लोगों को दिखाया गया ₹1,000 का ad हमेशा 50,000 फालतू लोगों को दिखाए गए ₹5,000 के ad से बेहतर होगा।   
+TXT
+आपके पास ट्रैक करने का कोई तरीका नहीं है कि क्या काम कर रहा है
+ads चलाने वाले ज़्यादातर SMB मालिक इस आसान सवाल का जवाब नहीं दे पाते: "इस हफ्ते आपको जो 10 कॉल आए, उनमें से कितने ads से आए?" 
+अगर आप इसे ट्रैक नहीं कर सकते, तो आप इसे सुधार नहीं सकते। आप बस तुक्का लगा रहे हैं। 
+कम से कम, इनका इस्तेमाल करें:  
+TXT
++ 1
+ads के लिए एक अलग फोन नंबर या WhatsApp नंबर
+आपके ad लिंक में UTM पैरामीटर्स (इसके बारे में अपने ad मैनेजर से पूछें)
+आपकी वेबसाइट पर Google Analytics
+ads के बजाय क्या करें (जब आपका बजट कम हो)
+अगर आपका महीने का ad बजट ₹10,000 से कम है, तो कड़वा सच ये है: आपको शायद ads बिल्कुल नहीं चलाने चाहिए। अभी तो नहीं। 
+इसके बजाय, वो पैसा और समय इनमें लगाएं:  
+TXT
+Google Business Profile optimization (फ्री, लंबे समय तक चलने वाले रिज़ल्ट)
+ग्राहक के रिव्यू पाना (फ्री, भरोसा बनाता है)
+एक सही कैटलॉग के साथ WhatsApp Business (फ्री)
+मिलते-जुलते बिज़नेस के साथ लोकल पार्टनरशिप
+ये एक नींव बनाते हैं। 
+एक बार जब आपको अपने आप अच्छे ग्राहक मिलने लगें, तब ads के साथ इसे बढ़ाएं।  
+TXT
+पता नहीं कि आपका मार्केटिंग का पैसा असल में कहाँ जाना चाहिए? 
+KhojKaro.in की टीम से बात करें — हम भारतीय छोटे बिज़नेस को बिना किसी तकनीकी उलझन के ये समझने में मदद करते हैं।  
+TXT
+BENGALI TRANSLATION:
+প্রতি মাসে, ভারতের লক্ষ লক্ষ ছোট ব্যবসার মালিক গ্রাহক পাওয়ার আশায় Facebook এবং Google ads-এ টাকা ঢালেন। 
+তাদের মধ্যে বেশিরভাগই বিনিময়ে কিছুই পান না।  
+TXT
+এখানকার অপ্রিয় সত্যিটা হলো: সমস্যাটা এটা নয় যে ads কাজ করে না। 
+সমস্যা হলো আপনি সেগুলো কীভাবে চালাচ্ছেন।  
+TXT
+আপনি সঠিক ads চালানোর বদলে post-কে boost করছেন
+এটা টাকা নষ্ট করার ১ নম্বর উপায়। আপনি যখনই কিছু আপলোড করেন, Facebook আপনাকে সেই "Boost Post" বাটনটা দেখায়। 
+এটা বেশ লোভনীয় — মাত্র ৫০০ টাকা দিন আর বেশি "reach" পান।  
+TXT
++ 1
+কিন্তু reach মানেই গ্রাহক নয়। ১০,০০০ মানুষ স্ক্রল করে আপনার post পার হয়ে গেল, তার কোনো দাম নেই যদি তাদের কারোরই আপনার বিক্রি করা জিনিসটার দরকার না থাকে। 
+সঠিক ads আপনাকে এদের টার্গেট করতে দেয়:  
+TXT
++ 1
+আপনার নির্দিষ্ট এলাকার মানুষ (পুরো ভারত নয়)
+যারা সত্যিই আপনার সার্ভিসটা খুঁজছে
+একটা নির্দিষ্ট বয়স/আগ্রহের মানুষ
+Boosted post শুধু যত্রতত্র যেকোনো মানুষের কাছে আপনার কন্টেন্ট ছড়িয়ে দেয়। 
+এটা অনেকটা হেলিকপ্টার থেকে প্যামফ্লেট ছোঁড়ার মতো।  
+TXT
+আপনার ad আপনার homepage-এ (বা আরও খারাপ, আপনার Facebook পেজে) নিয়ে যায়
+কেউ আপনার ad-এ ক্লিক করলো। 
+তারা কোথায় পৌঁছায়?  
+TXT
+উত্তরটা যদি "আমার homepage" বা "আমার Facebook পেজ" হয় — তাহলে আপনি টাকা নষ্ট করছেন। 
+এগুলো হলো বন্ধ রাস্তা। এরপর কী করতে হবে সেটা মানুষটিকে নিজেকেই বুঝে নিতে হয়, আর বেশিরভাগ মানুষ সেই কষ্টটা করতে চায় না। 
+প্রতিটি ad-কে এমন একটা নির্দিষ্ট পেজে নিয়ে যাওয়া উচিত যেটা একটা কাজই করে:  
+TXT
++ 1
+তাদের ফোন নম্বর নেয়
+তাদের দিয়ে আপনাকে WhatsApp-এ মেসেজ করায়
+ad-এ যে প্রোডাক্ট/সার্ভিসের কথা বলা হয়েছিল, ঠিক সেটাই তাদের দেখায়
+এই পেজটা ad-এর প্রতিশ্রুতির সাথে মেলা উচিত। আপনার ad-এ যদি লেখা থাকে "50% off AC servicing", তবে landing page-টাও AC সার্ভিসিং নিয়েই হওয়া উচিত যেখানে সাথে সাথে বুকিং করার ব্যবস্থা থাকে।   
+TXT
++ 1
+আপনি "পুরো ভারত" বা "১৮-৬৫ বছরের সবাইকে" টার্গেট করছেন
+আপনি যদি মালাড-এ একটা দর্জির দোকান চালান, তবে আপনি চেন্নাইয়ের মানুষকে ads কেন দেখাচ্ছেন? আপনি যদি B2B ইন্ডাস্ট্রিয়াল সাপ্লাই বিক্রি করেন, তবে আপনি ১৮ বছরের কলেজ স্টুডেন্টদের কেন টার্গেট করছেন? 
+আপনার টার্গেটিং কঠোরভাবে ছোট করুন:  
+TXT
++ 1
+শুধুমাত্র আপনার শহর বাছুন (বা আপনার শহরের নির্দিষ্ট এলাকা)
+সেই বয়সের গ্রুপ বাছুন যারা আসলেই আপনার থেকে কেনে
+আপনার সার্ভিসের সাথে যুক্ত আগ্রহগুলো বাছুন
+২০০ জন কাজের মানুষকে দেখানো ১,০০০ টাকার ad সবসময় ৫০,০০০ অকাজের মানুষকে দেখানো ৫,০০০ টাকার ad-এর চেয়ে ভালো ফল দেবে।   
+TXT
+কী কাজ করছে সেটা ট্র্যাক করার কোনো উপায় আপনার কাছে নেই
+ads চালানো বেশিরভাগ ছোট ব্যবসার মালিক এই সহজ প্রশ্নের উত্তর দিতে পারেন না: "এই সপ্তাহে আপনি যে ১০টা কল পেয়েছেন, তার মধ্যে কটা ads থেকে এসেছে?" 
+আপনি যদি এটা ট্র্যাক করতে না পারেন, তবে আপনি এটা উন্নতও করতে পারবেন না। আপনি শুধু আন্দাজে ঢিল ছুঁড়ছেন। 
+অন্ততপক্ষে, এগুলো ব্যবহার করুন:  
+TXT
++ 1
+ads-এর জন্য একটা আলাদা ফোন নম্বর বা WhatsApp নম্বর
+আপনার ad লিংকে UTM প্যারামিটার (এর ব্যাপারে আপনার ad ম্যানেজারকে জিজ্ঞেস করুন)
+আপনার ওয়েবসাইটে Google Analytics
+ads-এর বদলে কী করবেন (যখন আপনার বাজেট কম)
+আপনার মাসিক ad বাজেট যদি ১০,০০০ টাকার কম হয়, তবে কঠিন সত্যিটা হলো: আপনার সম্ভবত একদমই ads চালানো উচিত নয়। অন্তত এখন নয়। 
+এর বদলে, সেই টাকা আর সময় এগুলোতে লাগান:
+১. Google Business Profile optimization (ফ্রি, দীর্ঘস্থায়ী ফলাফল)
+২. গ্রাহকের রিভিউ পাওয়া (ফ্রি, বিশ্বাস অর্জন করে)
+৩. সঠিক ক্যাটালগ সমেত WhatsApp Business (ফ্রি)
+৪. পরিপূরক ব্যবসার সাথে লোকাল পার্টনারশিপ  
+TXT
+এগুলো একটা ভিত তৈরি করে। 
+একবার যখন আপনি আপনাআপনিই ভালো গ্রাহক পেতে শুরু করবেন, তারপর ads দিয়ে সেটাকে বাড়ান।  
+TXT
+বুঝতে পারছেন না আপনার মার্কেটিংয়ের টাকা আসলে কোথায় লাগানো উচিত? 
+KhojKaro.in-এর টিমের সাথে কথা বলুন — আমরা ভারতের ছোট ব্যবসায়ীদের বিনা কোনো প্রযুক্তিগত কথায় এটা বুঝতে সাহায্য করি।  
+TXT
+NEPALI TRANSLATION:
+हरेक महिना, भारतमा लाखौँ साना व्यापारका मालिकहरू ग्राहक आउने आशमा Facebook र Google ads मा पैसा खन्याउँछन्। 
+तिनीहरूमध्ये धेरैजसोले बदलामा केही पाउँदैनन्।  
+TXT
+यहाँको तीतो सत्य यो हो: समस्या यो होइन कि ads ले काम गर्दैन। 
+समस्या यो हो कि तपाईँले तिनीहरूलाई कसरी चलाइरहनुभएको छ।  
+TXT
+तपाईँ सही ads चलाउनुको सट्टा post लाई boost गरिरहनुभएको छ
+यो पैसा बर्बाद गर्ने #१ तरिका हो। जब पनि तपाईँले केही अपलोड गर्नुहुन्छ, Facebook ले तपाईँलाई त्यो "Boost Post" बटन देखाउँछ। 
+यसले लोभ्याउँछ — जम्मा ₹500 तिर्नुहोस् र धेरै "reach" पाउनुहोस्।  
+TXT
++ 1
+तर reach भनेको ग्राहक होइन। १०,००० मानिसहरूलाई तपाईँको post स्क्रोल गरेर जान दिनुको कुनै अर्थ हुँदैन यदि तिनीहरूमध्ये कसैलाई पनि तपाईँले बेच्ने कुराको आवश्यकता छैन भने। 
+सही ads ले तपाईँलाई यिनीहरूलाई टार्गेट गर्न दिन्छन्:  
+TXT
++ 1
+तपाईँको खास क्षेत्रका मानिसहरू (पूरै भारत होइन)
+ती मानिसहरू जो साँच्चै तपाईँको सेवा खोजिरहेका छन्
+एउटा खास उमेर/रुचि भएका मानिसहरू
+Boosted post ले खाली तपाईँको कन्टेन्ट जो कोहीलाई देखाइदिन्छन्। 
+यो हेलिकप्टरबाट पम्प्लेट फ्याँकेजस्तै हो।  
+TXT
+तपाईँको ad तपाईँको homepage मा (वा त्यो भन्दा पनि नराम्रो, तपाईँको Facebook पेजमा) जान्छ
+कसैले तपाईँको ad मा क्लिक गर्यो। 
+उनीहरू कहाँ पुग्छन्?  
+TXT
+यदि जवाफ "मेरो homepage" वा "मेरो Facebook पेज" हो भने — तपाईँले पैसा बर्बाद गर्दै हुनुहुन्छ। 
+यी बन्द बाटाहरू हुन्। मानिसले आफैँ बुझ्नुपर्छ कि अब के गर्ने, र धेरैजसोले त्यति दुःख गर्न चाहँदैनन्। 
+हरेक ad एउटा खास पेजमा जानुपर्छ जसले एउटा काम गर्छ:  
+TXT
++ 1
+उनीहरूको फोन नम्बर लिन्छ
+उनीहरूलाई WhatsApp मा तपाईँलाई म्यासेज गर्न लगाउँछ
+उनीहरूलाई ad मा भनिएको ठ्याक्कै त्यही प्रोडक्ट/सर्भिस देखाउँछ
+यो पेज ad को बाचासँग मिल्नुपर्छ। यदि तपाईँको ad ले "50% off AC servicing" भन्छ भने, landing page AC सर्भिसिङकै बारेमा हुनुपर्छ जहाँ तुरुन्तै बुकिङ गर्न सकियोस्।   
+TXT
++ 1
+तपाईँले "पूरै भारत" वा "१८-६५ वर्षका सबै मानिसहरू" लाई टार्गेट गर्दै हुनुहुन्छ
+यदि तपाईँ मलाडमा कपडा सिलाउने पसल चलाउनुहुन्छ भने, तपाईँ किन चेन्नईका मानिसहरूलाई ads देखाइरहनुभएको छ? यदि तपाईँ B2B इन्डस्ट्रियल सप्लाई बेच्नुहुन्छ भने, तपाईँ किन १८ वर्षका कलेजका विद्यार्थीहरूलाई टार्गेट गरिरहनुभएको छ? 
+आफ्नो टार्गेटिङलाई एकदमै सानो बनाउनुहोस्:  
+TXT
++ 1
+आफ्नो सहर मात्र छान्नुहोस् (वा आफ्नो सहरका खास क्षेत्रहरू)
+त्यो उमेर समूह छान्नुहोस् जसले साँच्चै तपाईँसँग किन्छ
+तपाईँको सेवासँग सम्बन्धित रुचिहरू छान्नुहोस्
+२०० जना काम लाग्ने मानिसहरूलाई देखाइएको ₹1,000 को ad ले ५०,००० जना काम नलाग्ने मानिसहरूलाई देखाइएको ₹5,000 को ad लाई सधैँ जित्छ।   
+TXT
+के ले काम गरिरहेको छ भनेर ट्र्याक (track) गर्ने तपाईँसँग कुनै तरिका छैन
+ads चलाउने धेरैजसो साना व्यापारीहरूले यो सजिलो प्रश्नको जवाफ दिन सक्दैनन्: "यो हप्ता तपाईँलाई आएका १० वटा कलमध्ये, कतिवटा ads बाट आए?" 
+यदि तपाईँले यसलाई ट्र्याक गर्न सक्नुहुन्न भने, तपाईँले यसलाई सुधार्न पनि सक्नुहुन्न। तपाईँ केवल अनुमान लगाउँदै हुनुहुन्छ। 
+कम्तीमा पनि, यी कुराहरू प्रयोग गर्नुहोस्:  
+TXT
++ 1
+ads को लागि एउटा छुट्टै फोन नम्बर वा WhatsApp नम्बर
+तपाईँको ad लिंकमा UTM प्यारामिटरहरू (यसको बारेमा आफ्नो ad म्यानेजरलाई सोध्नुहोस्)
+तपाईँको वेबसाइटमा Google Analytics
+ads को सट्टा के गर्ने (जब तपाईँको बजेट सानो छ)
+  
+TXT
++ 3
+यदि तपाईँको मासिक ad बजेट ₹10,000 भन्दा कम छ भने, यहाँको तीतो सत्य यो हो: तपाईँले सायद ads चलाउनै हुँदैन। अहिले होइन। 
+यसको सट्टा, त्यो पैसा र समय यसमा लगाउनुहोस्:
+१. Google Business Profile optimization (फ्री, लामो समयसम्म रहने नतिजा)
+२. ग्राहकको रिभ्यु पाउनु (फ्री, विश्वास बढाउँछ)
+३. एउटा राम्रो क्याटलग (catalog) सहितको WhatsApp Business (फ्री)
+४. मिल्दाजुल्दा व्यापारहरूसँग लोकल पार्टनरसिप (partnership)  
+TXT
+यिनीहरूले एउटा जग बसाल्छन्। 
+एकचोटि तपाईँले आफैँ राम्रा ग्राहकहरू पाउन थालेपछि, अनि ads सँग यसलाई बढाउनुहोस्।  
+TXT
+तपाईँको मार्केटिङको पैसा साँच्चै कहाँ जानुपर्छ भन्ने कुरामा कन्फ्युज हुनुहुन्छ? 
+KhojKaro.in को टिमसँग कुरा गर्नुहोस् — हामी भारतका साना व्यापारीहरूलाई कुनै गाह्रो प्राविधिक कुरा बिना यो कुरा बुझ्न मद्दत गर्छौँ।  
+TXT

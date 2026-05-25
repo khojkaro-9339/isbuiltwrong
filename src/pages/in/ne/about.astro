@@ -1,0 +1,56 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import CTASection from '../../../components/CTASection.astro';
+import { getTranslations } from '../../../i18n/translations';
+
+const locale = 'ne';
+const t = getTranslations(locale);
+---
+<BaseLayout title="हाम्रो बारेमा — Is Built Wrong" description={t.about.mission} locale={locale}>
+  <section class="py-16 sm:py-24">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6">
+      <h1 class="font-[family-name:var(--font-heading)] text-3xl sm:text-4xl font-bold mb-6">
+        {t.about.title}
+      </h1>
+
+      <p class="text-xl text-[var(--color-brand)] font-medium mb-8 leading-relaxed">
+        {t.about.mission}
+      </p>
+
+      <div class="prose prose-invert prose-lg max-w-none prose-p:text-[var(--color-text-secondary)] prose-p:leading-relaxed">
+        <p>{t.about.story}</p>
+
+        <p>
+          यसैले हामीले <strong>isbuiltwrong</strong> बनायौँ — एउटा सोझो कन्टेन्ट प्लेटफर्म जसले तपाईँलाई सिधै बताउँछ कि तपाईँको व्यापारको अनलाइन सेटअपमा ठ्याक्कै कहाँ गल्ती छ, त्यो पनि त्यस्तो भाषामा जुन तपाईँ बुझ्नुहुन्छ। कुनै गाह्रो शब्द छैन, कुनै "डिजिटल ट्रान्सफर्मेशन" जस्तो बकवास छैन।
+        </p>
+
+        <p>
+          हामी ती कुराहरूमा ध्यान दिन्छौँ जुन भारतका साना व्यापारहरूका लागि साँच्चै मायने राख्छन्: कसैले सर्च गर्दा Google ले तपाईँलाई देखाउँछ? तपाईँको वेबसाइटले मानिसहरूलाई कल गर्न लगाउँछ कि भगाउँछ? तपाईँको ads ले साँच्चै ग्राहक ल्याइरहेको छ कि खाली पैसा जलाइरहेको छ?
+        </p>
+
+        <h2 class="font-[family-name:var(--font-heading)]">सबै कसरी जोडिएको छ</h2>
+
+        <p>
+          <strong>isbuiltwrong.com</strong> त्यो ठाउँ हो जहाँ हामी समस्याहरूको बारेमा कुरा गर्छौँ — ब्लग, भिडियो, र के गल्ती छ भन्ने कुराको विश्लेषण।
+        </p>
+
+        <p>
+          <strong><a href="https://khojkaro.in" target="_blank" rel="noopener">KhojKaro.in</a></strong> त्यो ठाउँ हो जहाँ हामी ती समस्याहरू ठीक गर्छौँ। हाम्रो टिमले व्यापारहरूसँग सिधै काम गर्छ — कम्प्लायन्स, लोन, लिड जेनेरेसन, इन्भेन्ट्री क्लियरेन्स — ताकि तपाईँ आफ्नो असली कामम ध्यान दिन सक्नुहोस्।
+        </p>
+
+        <p>
+          दुवै <strong>QuickLabs Enterprises</strong> द्वारा सञ्चालित छन्, जुन आफैँ एउटा रजिस्टर्ड MSME हो। हामी मेहनत बुझ्छौँ किनभने हामी आफैँ यसमै बाँचिरहेका छौँ।
+        </p>
+      </div>
+
+      <div class="mt-12 p-6 sm:p-8 bg-[var(--color-surface-raised)] border border-[var(--color-border)] rounded-2xl">
+        <p class="text-sm text-[var(--color-text-muted)] uppercase tracking-wider mb-2">{t.about.powered}</p>
+        <p class="text-[var(--color-text-secondary)]">
+          {t.about.khojkaro} <a href="https://khojkaro.in" target="_blank" rel="noopener" class="text-[var(--color-brand)] hover:underline">khojkaro.in</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <CTASection locale={locale} />
+</BaseLayout>

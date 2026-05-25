@@ -1,0 +1,354 @@
+===========================================================
+TRANSLATION FILE — isbuiltwrong.com
+===========================================================
+
+FOR THE TRANSLATOR:
+- This website helps Indian small business owners understand what's wrong with their online presence.
+- The audience is NON-TECHNICAL — shopkeepers, manufacturers, traders, service providers.
+- Tone: Friendly, direct, slightly playful. Like explaining to a smart friend who doesn't know tech.
+- DO NOT translate literally. Rewrite naturally in each language as a native speaker would say it.
+- Languages needed: Hindi, Bengali (WB colloquial), Nepali (Darjeeling/Siliguri style)
+
+TARGET AUDIENCE:
+- Indian SMB owners (age 30-55)
+- Not comfortable with English tech terms
+- They understand their business but not digital marketing
+- They're frustrated because "online stuff" isn't working for them
+
+===========================================================
+SECTION 1: NAVIGATION (appears on every page, top bar)
+Context: Short labels for menu items. Keep very short (1-2 words max).
+===========================================================
+
+1. "Blog"
+   → Where we publish articles/advice
+
+2. "About"
+   → Page about who we are
+
+3. "Contact"
+   → Page to reach us
+
+4. "Get Help"
+   → Button that takes them to our service team (KhojKaro)
+
+===========================================================
+SECTION 2: LANGUAGE PICKER PAGE (first page users see)
+Context: User just arrived. They need to pick their language. Make it warm and inviting.
+The subtitle under each language name should be a casual instruction in THAT language
+telling them to click — like "यहाँ पढ़ें" kind of vibe but more natural.
+===========================================================
+
+5. Page heading: "अपनी भाषा चुनें" (this is already in Hindi, keep as-is)
+   → Translate to Bengali and Nepali too:
+   English meaning: "Choose your language"
+
+6. Subtitle under Hindi button: "Hindi mein padhein"
+   → This should be in Hindi script, casual: something like "हिंदी में पढ़ें"
+
+7. Subtitle under Bengali button: "Bangla-y porun"
+   → This should be in Bengali script, casual: like "বাংলায় পড়ুন"
+
+8. Subtitle under Nepali button: "Nepali ma padhnuhos"
+   → This should be in Nepali script, casual: like "नेपालीमा पढ्नुहोस्"
+
+9. Bottom note: "आप बाद में भी भाषा बदल सकते हैं · You can change language later"
+   → Need Bengali and Nepali versions of "You can change language later"
+
+===========================================================
+SECTION 3: HERO (main banner on homepage)
+Context: This is the FIRST thing they see. It needs to grab attention.
+The headline should feel punchy, almost confrontational — like asking
+"you spent money on this... but is it actually doing anything?"
+===========================================================
+
+10. Badge text: "For Indian Small Businesses"
+    → Small label above the headline. Keep short.
+
+11. Headline (2 lines):
+    "Your business is online.
+     But is it working?"
+    → This needs to hit hard. Not a gentle question — more like
+      "you know something is wrong, right?"
+
+12. Subheadline:
+    "Most small businesses lose customers because their website, Google listing, or social media is built wrong. We show you exactly what's broken — in plain language."
+    → Explain what we do. Key point: we tell them what's wrong in SIMPLE words.
+    → Don't use "digital presence" or "online optimization" — use words like
+      "website", "Google pe naam", "social media"
+
+13. Primary button: "Find out what's wrong"
+    → Action button. Should feel like "let's figure out the problem"
+
+14. Secondary button: "Read the blog"
+    → Takes them to articles. Keep simple.
+
+===========================================================
+SECTION 4: VALUE PROPOSITIONS (4 cards on homepage)
+Context: Each card explains ONE problem we help them understand.
+Title should be the PROBLEM stated as a question they'd ask themselves.
+Description should be 1-2 sentences explaining what we do about it.
+Tone: "We get it. Here's what's happening."
+===========================================================
+
+15. Card 1 Title: "Why Google doesn't show your business"
+    → The frustration: competitors appear on Google search, they don't.
+
+16. Card 1 Description: "Your competitors show up when someone searches. You don't. We tell you exactly why and what to do about it."
+
+17. Card 2 Title: "Why your website doesn't get calls"
+    → They paid for a website but no one contacts them through it.
+
+18. Card 2 Description: "You spent money on a website. But no one calls, no one messages. We show you what's pushing customers away."
+
+19. Card 3 Title: "Why your social media isn't working"
+    → They post on Instagram/Facebook but nothing happens.
+
+20. Card 3 Description: "You post regularly but nothing happens. We decode what's actually wrong with your approach."
+
+21. Card 4 Title: "Why you're wasting money on ads"
+    → Running Google/Facebook ads but no real results.
+
+22. Card 4 Description: "Running Google/Facebook ads but no real business coming in? We show you where the money is actually going."
+
+===========================================================
+SECTION 5: CTA (Call to Action — bottom of homepage)
+Context: After reading the page, this pushes them to take action.
+"KhojKaro" is our service brand name — don't translate it.
+===========================================================
+
+23. CTA Heading: "Ready to find out what's wrong?"
+
+24. CTA Description: "Our team at KhojKaro works with businesses like yours — no jargon, just results that make you money."
+    → Key message: we're not complicated, we deliver results in money terms.
+
+25. CTA Button: "Talk to KhojKaro"
+
+===========================================================
+SECTION 6: BLOG PAGE
+Context: Labels for the blog listing page. Keep short.
+===========================================================
+
+26. Blog page title: "Latest Insights"
+    → Not "insights" literally — more like "ताज़ा जानकारी" vibe
+
+27. Blog subtitle: "Straight answers about what Indian SMBs get wrong online"
+    → Explains what the blog is about. Keep casual.
+
+28. "Read more" (link on each blog card)
+
+===========================================================
+SECTION 7: ABOUT PAGE
+Context: Explains who we are and why we exist. Slightly more serious
+tone but still accessible. "We're on your side" feeling.
+===========================================================
+
+29. About title: "About Us"
+
+30. Mission statement: "We exist because small businesses in India deserve straight answers."
+    → This is our one-liner. Should feel bold and caring.
+
+31. Story paragraph:
+    "Most digital marketing agencies sell you things you don't understand. We believe Indian SMBs — the kirana stores, manufacturers, traders, service providers — deserve to know what's actually wrong with their online presence before spending a single rupee on fixing it."
+    → Key ideas: agencies rip you off, we're honest, know before you spend.
+    → Use relatable business types for each language (kirana = everyone gets it)
+
+32. "Powered by QuickLabs Enterprises"
+    → Company credit line
+
+33. "Businesses work with our team at"
+    → Followed by "khojkaro.in" link
+
+===========================================================
+SECTION 8: CONTACT PAGE
+Context: Simple page to reach us. Warm, no-barrier feeling.
+===========================================================
+
+34. Contact title: "Let's Talk"
+
+35. Contact description: "No forms. No waiting. Just message us directly."
+    → Emphasize: it's easy, no bureaucracy
+
+36. "Message on WhatsApp"
+    → Button label
+
+37. "Send an Email"
+    → Button label
+
+===========================================================
+SECTION 9: FOOTER (bottom of every page)
+Context: Standard footer text. Brief.
+===========================================================
+
+38. Footer tagline: "We decode what's wrong with your business online — no tech jargon, just straight answers that make you money."
+
+39. "Navigate" (footer section heading)
+
+40. "Services" (footer section heading)
+
+41. "A QuickLabs Enterprise" (company attribution)
+
+42. "Businesses work with us at" (followed by khojkaro.in link)
+
+43. "All rights reserved."
+
+===========================================================
+FORMAT FOR RETURNING TRANSLATIONS:
+For each numbered item, provide:
+
+[Item number]
+HINDI: ...
+BENGALI: ...
+NEPALI: ...
+
+===========================================================
+
+
+
+TRANSLATIONS
+The translations have been completed following the exact specifications provided. The Bengali phrasing utilizes West Bengal colloquial structures, and the Nepali phrasing aligns with Darjeeling/Siliguri colloquial usage. The tone remains direct, professional yet accessible, avoiding technical jargon.
+
+[1]
+HINDI: ब्लॉग BENGALI: ব্লগ NEPALI: ब्लग 
+
+[2]
+HINDI: हमारे बारे में BENGALI: আমাদের কথা NEPALI: हाम्रो बारेमा 
+
+[3]
+HINDI: संपर्क करें BENGALI: যোগাযোগ NEPALI: सम्पर्क 
+
+[4]
+HINDI: मदद लें BENGALI: সাহায্য নিন NEPALI: मद्दत लिनुहोस् 
+
+[5]
+HINDI: अपनी भाषा चुनें BENGALI: আপনার ভাষা বেছে নিন NEPALI: आफ्नो भाषा छान्नुहोस् 
+
+[6]
+HINDI: हिंदी में पढ़ें BENGALI: (N/A — Not requested for Bengali/Nepali translation in instructions) NEPALI: (N/A) 
+
+[7]
+HINDI: (N/A) BENGALI: বাংলায় পড়ুন NEPALI: (N/A) 
+
+[8]
+HINDI: (N/A) BENGALI: (N/A) NEPALI: नेपालीमा पढ्नुहोस् 
+
+[9]
+HINDI: आप बाद में भी भाषा बदल सकते हैं BENGALI: আপনি পরেও ভাষা পাল্টাতে পারবেন NEPALI: तपाईँले पछि पनि भाषा परिवर्तन गर्न सक्नुहुन्छ 
+
+[10]
+HINDI: भारतीय छोटे व्यापारियों के लिए BENGALI: ভারতের ছোট ব্যবসায়ীদের জন্য NEPALI: भारतका साना व्यापारीहरूका लागि 
+
+[11]
+HINDI: आपका बिज़नेस ऑनलाइन तो है। पर क्या उससे कोई फायदा हो रहा है? 
+BENGALI: আপনার ব্যবসা অনলাইনে আছে। কিন্তু তা থেকে কি কোনো লাভ হচ্ছে? 
+NEPALI: तपाईँको व्यापार अनलाइन त छ। तर के त्यसले काम गरिरहेको छ? 
+
+[12]
+HINDI: ज़्यादातर छोटे व्यापारी अपने ग्राहक खो देते हैं क्योंकि उनकी वेबसाइट, गूगल लिस्टिंग या सोशल मीडिया में गड़बड़ी होती है। हम आपको आसान भाषा में बताते हैं कि दिक्कत कहाँ है। 
+BENGALI: বেশিরভাগ ছোট ব্যবসায়ী তাদের গ্রাহক হারায় কারণ তাদের ওয়েবসাইট, গুগল লিস্টিং বা সোশ্যাল মিডিয়া ঠিকমতো বানানো নেই। আমরা আপনাকে সহজ ভাষায় বলে দিই যে আসল সমস্যাটা কোথায়। 
+NEPALI: धेरैजसो साना व्यापारीहरूले आफ्ना ग्राहक गुमाउँछन् किनभने उनीहरूको वेबसाइट, गुगल लिस्टिङ वा सोसल मिडिया सही तरिकाले बनेको हुँदैन। हामी तपाईँलाई सजिलो भाषामा बताउँछौँ कि खासमा गल्ती कहाँ छ। 
+
+[13]
+HINDI: पता करें कि क्या गलत है BENGALI: জানুন কোথায় ভুল হচ্ছে NEPALI: के गल्ती छ, पत्ता लगाउनुहोस् 
+
+[14]
+HINDI: ब्लॉग पढ़ें BENGALI: ব্লগ পড়ুন NEPALI: ब्लग पढ्नुहोस् 
+
+[15]
+HINDI: गूगल पर आपका बिज़नेस क्यों नहीं दिखता? BENGALI: গুগলে আপনার ব্যবসা কেন দেখায় না? NEPALI: गुगलमा तपाईँको व्यापार किन देखिँदैन? 
+
+[16]
+HINDI: जब कोई सर्च करता है, तो आपके कॉम्पिटिटर दिखते हैं, आप नहीं। हम बताते हैं ऐसा क्यों है और इसे कैसे ठीक करें। 
+BENGALI: কেউ সার্চ করলে আপনার প্রতিযোগীদের নাম আসে, কিন্তু আপনারটা আসে না। আমরা আপনাকে জানাই এমনটা কেন হচ্ছে আর এর সমাধান কী। 
+NEPALI: कसैले सर्च गर्दा तपाईँका प्रतिस्पर्धीहरू देखिन्छन्, तर तपाईँको नाम आउँदैन। यस्तो किन हुन्छ र यसलाई कसरी सुधार्ने भनेर हामी बताउँछौँ। 
+
+[17]
+HINDI: आपकी वेबसाइट से कॉल क्यों नहीं आते? BENGALI: আপনার ওয়েবসাইট থেকে কল কেন আসে না? NEPALI: तपाईँको वेबसाइटबाट कल किन आउँदैन? 
+
+[18]
+HINDI: आपने वेबसाइट पर पैसे खर्च किए। पर न कोई कॉल आता है, न मैसेज। हम आपको दिखाते हैं कि कौन सी चीज़ ग्राहकों को दूर भगा रही है। 
+BENGALI: আপনি ওয়েবসাইট বানাতে টাকা খরচ করেছেন। কিন্তু কেউ কল বা মেসেজ করে না। আমরা আপনাকে দেখাব কোন কারণে গ্রাহকরা ফিরে যাচ্ছে। 
+NEPALI: तपाईँले वेबसाइटमा पैसा खर्च गर्नुभयो। तर न कसैको कल आउँछ, न म्यासेज। हामी तपाईँलाई देखाउँछौँ कि कुन कुराले ग्राहकहरूलाई भगाइरहेको छ। 
+
+[19]
+HINDI: आपका सोशल मीडिया काम क्यों नहीं कर रहा? BENGALI: আপনার সোশ্যাল মিডিয়া কোনো কাজে আসছে না কেন? NEPALI: तपाईँको सोसल मिडियाले किन काम गरिरहेको छैन? 
+
+[20]
+HINDI: आप रोज़ पोस्ट करते हैं पर कुछ हासिल नहीं होता। हम समझाते हैं कि आपके तरीके में असल में क्या कमी है। 
+BENGALI: আপনি রোজ পোস্ট করেন কিন্তু কিছুই লাভ হয় না। আমরা আপনাকে বুঝিয়ে দিই যে আপনার পদ্ধতিতে আসলে কোথায় ভুল আছে। 
+NEPALI: तपाईँ सधैँ पोस्ट गर्नुहुन्छ तर केही फाइदा हुँदैन। हामी तपाईँलाई बुझाउँछौँ कि तपाईँको तरिकामा खासमा के गल्ती छ। 
+
+[21]
+HINDI: आप विज्ञापनों पर पैसा क्यों बर्बाद कर रहे हैं? BENGALI: অ্যাডে (Ads) শুধু শুধু টাকা নষ্ট করছেন কেন? NEPALI: तपाईँ विज्ञापनमा किन पैसा खेर फालिरहनुभएको छ? 
+
+[22]
+HINDI: गूगल या फेसबुक पर एड चला रहे हैं पर कोई बिज़नेस नहीं आ रहा? हम आपको बताते हैं कि आपका पैसा असल में जा कहाँ रहा है। 
+BENGALI: গুগল বা ফেসবুকে অ্যাড চালাচ্ছেন অথচ কোনো নতুন কাজ আসছে না? আমরা আপনাকে দেখাব আপনার টাকা আসলে কোথায় যাচ্ছে। 
+NEPALI: गुगल वा फेसबुकमा विज्ञापन चलाइरहनुभएको छ तर नयाँ व्यापार आएको छैन? हामी तपाईँलाई देखाउँछौँ कि तपाईँको पैसा खासमा कहाँ जाँदैछ। 
+
+[23]
+HINDI: जानने के लिए तैयार हैं कि दिक्कत कहाँ है? BENGALI: কোথায় ভুল হচ্ছে জানতে প্রস্তুত? NEPALI: गल्ती कहाँ छ भनेर जान्न तयार हुनुहुन्छ? 
+
+[24]
+HINDI: KhojKaro की हमारी टीम आपके जैसे बिज़नेस के साथ काम करती है — कोई उलझाने वाली बातें नहीं, सिर्फ वो नतीजे जो आपकी कमाई बढ़ाएं। BENGALI: KhojKaro-তে আমাদের টিম আপনাদের মতো ব্যবসার সাথেই কাজ করে — কোনো কঠিন কথা নয়, শুধুই এমন ফলাফল যা আপনার রোজগার বাড়ায়। NEPALI: KhojKaro मा हाम्रो टिम तपाईँजस्तै व्यापारीहरूसँग काम गर्छ — कुनै गाह्रो कुरा होइन, मात्र त्यस्तो नतिजा जसले तपाईँको कमाइ बढाउँछ। 
+
+[25]
+HINDI: KhojKaro से बात करें BENGALI: KhojKaro-র সাথে কথা বলুন NEPALI: KhojKaro सँग कुरा गर्नुहोस् 
+
+[26]
+HINDI: ताज़ा जानकारी BENGALI: নতুন খবরাখবর NEPALI: नयाँ जानकारी 
+
+[27]
+HINDI: सीधे जवाब: भारतीय छोटे व्यापारी ऑनलाइन कहाँ गलती करते हैं BENGALI: সোজাসাপ্টা উত্তর: ভারতের ছোট ব্যবসায়ীরা অনলাইনে কোথায় ভুল করে NEPALI: सिधा जवाफ: भारतका साना व्यापारीहरूले अनलाइनमा कहाँ गल्ती गर्छन् 
+
+[28]
+HINDI: आगे पढ़ें BENGALI: আরও পড়ুন NEPALI: थप पढ्नुहोस् 
+
+[29]
+HINDI: हमारे बारे में BENGALI: আমাদের কথা NEPALI: हाम्रो बारेमा 
+
+[30]
+HINDI: हम इसलिए हैं क्योंकि भारत के छोटे व्यापारियों को सीधे और सच्चे जवाब मिलने चाहिए। BENGALI: আমরা কাজ করি কারণ ভারতের ছোট ব্যবসায়ীদের সোজাসাপ্টা এবং সত্যি উত্তর পাওয়ার অধিকার আছে। NEPALI: हामी यसकारण छौँ किनभने भारतका साना व्यापारीहरूले सिधा र साँचो जवाफ पाउनुपर्छ। 
+
+[31]
+HINDI: ज़्यादातर डिजिटल मार्केटिंग एजेंसियां आपको वो चीज़ें बेचती हैं जो आपकी समझ से बाहर होती हैं। हमारा मानना है कि भारत के छोटे व्यापारियों — जैसे किराना दुकान, मैन्युफैक्चरर, और सर्विस देने वालों — को अपनी ऑनलाइन कमियों को ठीक करने पर एक भी रुपया खर्च करने से पहले ये जानने का हक है कि असल में दिक्कत कहाँ है। 
+BENGALI: বেশিরভাগ ডিজিটাল মার্কেটিং এজেন্সি আপনাকে এমন সব জিনিস বিক্রি করে যা আপনার মাথার ওপর দিয়ে যায়। আমাদের বিশ্বাস, ভারতের ছোট ব্যবসায়ীদের — যেমন মুদির দোকান, ম্যানুফ্যাকচারার বা সার্ভিস প্রোভাইডারদের — নিজেদের অনলাইন সমস্যার পিছনে এক টাকাও খরচ করার আগে এটা জানার অধিকার আছে যে আসল সমস্যাটা কোথায়। 
+NEPALI: धेरैजसो डिजिटल मार्केटिङ एजेन्सीहरूले तपाईँलाई त्यस्ता कुराहरू बेच्छन् जुन तपाईँ बुझ्नुहुन्न। हाम्रो विश्वास छ कि भारतका साना व्यापारीहरू — जस्तै किराना पसल, म्यानुफ्याक्चरर, व्यापारी र सेवा दिनेहरूले — आफ्नो अनलाइन समस्या सुधार्न एक रुपैयाँ खर्च गर्नुअघि खासमा गल्ती कहाँ छ भनेर जान्न पाउनुपर्छ। 
+
+[32]
+HINDI: QuickLabs Enterprises द्वारा संचालित BENGALI: QuickLabs Enterprises দ্বারা পরিচালিত NEPALI: QuickLabs Enterprises द्वारा सञ्चालित 
+
+[33]
+HINDI: व्यापारी हमारी टीम के साथ यहाँ जुड़ते हैं BENGALI: ব্যবসায়ীরা আমাদের টিমের সাথে কাজ করে এখানে NEPALI: व्यापारीहरू हाम्रो टिमसँग यहाँ काम गर्छन् 
+
+[34]
+HINDI: आइए बात करें BENGALI: চলুন কথা বলি NEPALI: कुरा गरौँ 
+
+[35]
+HINDI: कोई फॉर्म नहीं। कोई इंतज़ार नहीं। बस सीधे हमें मैसेज करें। 
+BENGALI: কোনো ফর্ম নেই। কোনো অপেক্ষাও নেই। সোজা আমাদের মেসেজ করুন। 
+NEPALI: कुनै फारम छैन। कुनै पर्खाइ छैन। सिधै हामीलाई म्यासेज गर्नुहोस्। 
+
+[36]
+HINDI: WhatsApp पर मैसेज करें BENGALI: WhatsApp-এ মেসেজ করুন NEPALI: WhatsApp मा म्यासेज गर्नुहोस् 
+
+[37]
+HINDI: ईमेल भेजें BENGALI: ইমেল পাঠান NEPALI: इमेल पठाउनुहोस् 
+
+[38]
+HINDI: हम पता लगाते हैं कि आपके बिज़नेस के ऑनलाइन सेटअप में क्या कमी है — बिना किसी तकनीकी उलझन के, सिर्फ सीधे जवाब जो आपकी कमाई बढ़ाएं। BENGALI: আমরা আপনার ব্যবসার অনলাইন সেটআপের সমস্যাগুলো খুঁজে বের করি — কোনো কঠিন প্রযুক্তিগত কথা ছাড়া, শুধু সোজাসাপ্টা উত্তর যা আপনার রোজগার বাড়াতে সাহায্য করে। NEPALI: हामी तपाईँको व्यापारको अनलाइन सेटअपमा के गल्ती छ भनेर पत्ता लगाउँछौँ — कुनै गाह्रो प्राविधिक कुरा बिना, मात्र सिधा जवाफ जसले तपाईँको कमाइ बढाउँछ। 
+
+[39]
+HINDI: नेविगेट करें BENGALI: নেভিগেট করুন NEPALI: नेभिगेट गर्नुहोस् 
+
+[40]
+HINDI: सेवाएं BENGALI: পরিষেবা NEPALI: सेवाहरू 
+
+[41]
+HINDI: एक QuickLabs Enterprise BENGALI: একটি QuickLabs Enterprise NEPALI: एक QuickLabs Enterprise 
+
+[42]
+HINDI: बिज़नेस हमारे साथ यहाँ जुड़ते हैं BENGALI: ব্যবসায়ীরা আমাদের সাথে কাজ করে এখানে NEPALI: व्यापारीहरू हाम्रो साथ यहाँ काम गर्छन् 
+
+[43]
+HINDI: सर्वाधिकार सुरक्षित। BENGALI: সর্বস্বত্ব সংরক্ষিত। NEPALI: सर्वाधिकार सुरक्षित।

@@ -1,5 +1,7 @@
 ---
 import BaseLayout from './BaseLayout.astro';
+import { getTranslations } from '../i18n/translations';
+import type { Locale } from '../i18n/translations';
 
 interface Props {
   frontmatter: {
@@ -9,16 +11,19 @@ interface Props {
     tags: string[];
     image?: string;
   };
+  locale?: Locale;
 }
 
-const { frontmatter } = Astro.props;
-const formattedDate = new Date(frontmatter.date).toLocaleDateString('en-US', {
+const { frontmatter, locale = 'en' } = Astro.props;
+const t = getTranslations(locale);
+const dateLocale = locale === 'en' ? 'en-US' : locale === 'hi' ? 'hi-IN' : locale === 'bn' ? 'bn-IN' : 'ne-NP';
+const formattedDate = new Date(frontmatter.date).toLocaleDateString(dateLocale, {
   year: 'numeric',
   month: 'long',
   day: 'numeric',
 });
 ---
-<BaseLayout title={`${frontmatter.title} | Is Built Wrong`} description={frontmatter.description} type="article">
+<BaseLayout title={`${frontmatter.title} | Is Built Wrong`} description={frontmatter.description} type="article" locale={locale}>
   <article class="max-w-3xl mx-auto px-4 sm:px-6 py-16 sm:py-24">
     <header class="mb-12">
       <div class="flex items-center gap-3 mb-4">
@@ -51,10 +56,10 @@ const formattedDate = new Date(frontmatter.date).toLocaleDateString('en-US', {
 
     <footer class="mt-16 pt-8 border-t border-[var(--color-border)]">
       <div class="bg-[var(--color-surface-raised)] rounded-2xl p-6 sm:p-8">
-        <p class="font-[family-name:var(--font-heading)] text-xl font-semibold mb-2">Need help fixing this?</p>
-        <p class="text-[var(--color-text-secondary)] mb-4">Our team at KhojKaro handles this for businesses like yours — no jargon, just results.</p>
+        <p class="font-[family-name:var(--font-heading)] text-xl font-semibold mb-2">{t.cta.title}</p>
+        <p class="text-[var(--color-text-secondary)] mb-4">{t.cta.desc}</p>
         <a href="https://khojkaro.in" target="_blank" rel="noopener" class="inline-flex items-center gap-2 bg-[var(--color-brand)] text-white font-semibold px-6 py-3 rounded-lg hover:bg-[var(--color-brand-dark)] transition-colors">
-          Talk to KhojKaro
+          {t.cta.button}
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
         </a>
       </div>

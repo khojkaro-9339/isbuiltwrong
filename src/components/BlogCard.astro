@@ -6,14 +6,16 @@ interface Props {
   slug: string;
   tags?: string[];
   readMore?: string;
+  locale?: string;
 }
 
-const { title, description, date, slug, tags = [], readMore = 'Read more' } = Astro.props;
-const formattedDate = new Date(date).toLocaleDateString('en-US', {
+const { title, description, date, slug, tags = [], readMore = 'Read more', locale = 'en' } = Astro.props;
+const formattedDate = new Date(date).toLocaleDateString(locale === 'en' ? 'en-US' : locale === 'hi' ? 'hi-IN' : locale === 'bn' ? 'bn-IN' : 'ne-NP', {
   year: 'numeric',
   month: 'short',
   day: 'numeric',
 });
+const blogUrl = `/in/${locale}/blog/${slug}`;
 ---
 <article class="group bg-[var(--color-surface-raised)] border border-[var(--color-border)] rounded-2xl p-6 sm:p-8 hover:border-[var(--color-brand)]/30 transition-all duration-300">
   <div class="flex items-center gap-3 mb-4">
@@ -27,7 +29,7 @@ const formattedDate = new Date(date).toLocaleDateString('en-US', {
   </div>
 
   <h3 class="font-[family-name:var(--font-heading)] text-xl font-semibold mb-3 group-hover:text-[var(--color-brand)] transition-colors">
-    <a href={`/blog/${slug}`} class="block">
+    <a href={blogUrl} class="block">
       {title}
     </a>
   </h3>
@@ -36,7 +38,7 @@ const formattedDate = new Date(date).toLocaleDateString('en-US', {
     {description}
   </p>
 
-  <a href={`/blog/${slug}`} class="inline-flex items-center gap-1.5 text-sm font-medium text-[var(--color-brand)] hover:gap-2.5 transition-all">
+  <a href={blogUrl} class="inline-flex items-center gap-1.5 text-sm font-medium text-[var(--color-brand)] hover:gap-2.5 transition-all">
     {readMore}
     <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
   </a>

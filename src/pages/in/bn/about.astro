@@ -1,0 +1,56 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import CTASection from '../../../components/CTASection.astro';
+import { getTranslations } from '../../../i18n/translations';
+
+const locale = 'bn';
+const t = getTranslations(locale);
+---
+<BaseLayout title="আমাদের কথা — Is Built Wrong" description={t.about.mission} locale={locale}>
+  <section class="py-16 sm:py-24">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6">
+      <h1 class="font-[family-name:var(--font-heading)] text-3xl sm:text-4xl font-bold mb-6">
+        {t.about.title}
+      </h1>
+
+      <p class="text-xl text-[var(--color-brand)] font-medium mb-8 leading-relaxed">
+        {t.about.mission}
+      </p>
+
+      <div class="prose prose-invert prose-lg max-w-none prose-p:text-[var(--color-text-secondary)] prose-p:leading-relaxed">
+        <p>{t.about.story}</p>
+
+        <p>
+          তাই আমরা <strong>isbuiltwrong</strong> তৈরি করেছি — একটা সোজাসাপ্টা কন্টেন্ট প্ল্যাটফর্ম যেটা আপনাকে সরাসরি বলে দেয় যে আপনার ব্যবসার অনলাইন সেটআপে ঠিক কোথায় গন্ডগোল, সেটাও এমন ভাষায় যা আপনি বুঝবেন। কোনো ভারী শব্দ নেই, কোনো "ডিজিটাল ট্রান্সফর্মেশন" গোছের বাজে কথা নেই।
+        </p>
+
+        <p>
+          আমরা সেই জিনিসগুলোর দিকে নজর দিই যেগুলো ভারতের ছোট ব্যবসার জন্য সত্যিই গুরুত্বপূর্ণ: কেউ সার্চ করলে কি Google আপনাকে দেখায়? আপনার ওয়েবসাইট কি মানুষদের কল করতে বলে নাকি তাদের তাড়িয়ে দেয়? আপনার ads কি সত্যিই গ্রাহক আনছে নাকি শুধু টাকা পোড়াচ্ছে?
+        </p>
+
+        <h2 class="font-[family-name:var(--font-heading)]">কীভাবে সব যুক্ত</h2>
+
+        <p>
+          <strong>isbuiltwrong.com</strong> হলো যেখানে আমরা সমস্যা নিয়ে কথা বলি — ব্লগ, ভিডিও, আর কী ভুল হচ্ছে সেটার বিশ্লেষণ।
+        </p>
+
+        <p>
+          <strong><a href="https://khojkaro.in" target="_blank" rel="noopener">KhojKaro.in</a></strong> হলো যেখানে আমরা সেই সমস্যাগুলো সমাধান করি। আমাদের টিম সরাসরি ব্যবসার সাথে কাজ করে — কমপ্লায়েন্স, লোন, লিড জেনারেশন, ইনভেন্টরি ক্লিয়ারেন্স — যাতে আপনি আপনার আসল কাজে মনোযোগ দিতে পারেন।
+        </p>
+
+        <p>
+          দুটোই <strong>QuickLabs Enterprises</strong> দ্বারা পরিচালিত, যেটা নিজেও একটা রেজিস্টার্ড MSME। আমরা পরিশ্রম বুঝি কারণ আমরাও এটাই করি।
+        </p>
+      </div>
+
+      <div class="mt-12 p-6 sm:p-8 bg-[var(--color-surface-raised)] border border-[var(--color-border)] rounded-2xl">
+        <p class="text-sm text-[var(--color-text-muted)] uppercase tracking-wider mb-2">{t.about.powered}</p>
+        <p class="text-[var(--color-text-secondary)]">
+          {t.about.khojkaro} <a href="https://khojkaro.in" target="_blank" rel="noopener" class="text-[var(--color-brand)] hover:underline">khojkaro.in</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <CTASection locale={locale} />
+</BaseLayout>
