@@ -25,3 +25,7 @@ pnpm-debug.log*
 
 # wrangler state
 .wrangler/
+
+# worker build output
+workers/audit-api/dist/
+workers/audit-api/node_modules/

@@ -63,6 +63,21 @@ const en = {
     workWith: 'Businesses work with us at',
     rights: 'All rights reserved.',
   },
+  audit: {
+    title: 'Free Website Audit',
+    subtitle: 'Find out what\'s wrong with your website in 30 seconds — completely free',
+    formUrl: 'Your website URL',
+    formUrlPlaceholder: 'e.g. www.yourbusiness.com',
+    formName: 'Business Name',
+    formNamePlaceholder: 'e.g. Sharma Plumbing',
+    formCity: 'City',
+    formCityPlaceholder: 'e.g. Siliguri',
+    formCategory: 'Business Category',
+    formCategorySelect: 'Select your category',
+    formSubmit: 'Run Free Audit',
+    formLoading: 'Analyzing your website...',
+    navLabel: 'Free Audit',
+  },
 };
 
 const hi = {
@@ -118,6 +133,21 @@ const hi = {
     poweredBy: 'एक QuickLabs Enterprise',
     workWith: 'बिज़नेस हमारे साथ यहाँ जुड़ते हैं',
     rights: 'सर्वाधिकार सुरक्षित।',
+  },
+  audit: {
+    title: 'मुफ्त वेबसाइट ऑडिट',
+    subtitle: '30 सेकंड में जानें आपकी वेबसाइट में क्या गलत है — बिल्कुल मुफ्त',
+    formUrl: 'आपकी वेबसाइट का URL',
+    formUrlPlaceholder: 'जैसे www.yourbusiness.com',
+    formName: 'बिज़नेस का नाम',
+    formNamePlaceholder: 'जैसे शर्मा प्लंबिंग',
+    formCity: 'शहर',
+    formCityPlaceholder: 'जैसे सिलीगुड़ी',
+    formCategory: 'बिज़नेस कैटेगरी',
+    formCategorySelect: 'अपनी कैटेगरी चुनें',
+    formSubmit: 'मुफ्त ऑडिट चलाएं',
+    formLoading: 'आपकी वेबसाइट का विश्लेषण हो रहा है...',
+    navLabel: 'मुफ्त ऑडिट',
   },
 };
 
@@ -175,6 +205,21 @@ const bn = {
     workWith: 'ব্যবসায়ীরা আমাদের সাথে কাজ করে এখানে',
     rights: 'সর্বস্বত্ব সংরক্ষিত।',
   },
+  audit: {
+    title: 'বিনামূল্যে ওয়েবসাইট অডিট',
+    subtitle: '৩০ সেকেন্ডে জানুন আপনার ওয়েবসাইটে কী সমস্যা আছে — সম্পূর্ণ বিনামূল্যে',
+    formUrl: 'আপনার ওয়েবসাইটের URL',
+    formUrlPlaceholder: 'যেমন www.yourbusiness.com',
+    formName: 'ব্যবসার নাম',
+    formNamePlaceholder: 'যেমন শর্মা প্লাম্বিং',
+    formCity: 'শহর',
+    formCityPlaceholder: 'যেমন শিলিগুড়ি',
+    formCategory: 'ব্যবসার ক্যাটেগরি',
+    formCategorySelect: 'আপনার ক্যাটেগরি বেছে নিন',
+    formSubmit: 'বিনামূল্যে অডিট চালান',
+    formLoading: 'আপনার ওয়েবসাইট বিশ্লেষণ করা হচ্ছে...',
+    navLabel: 'বিনামূল্যে অডিট',
+  },
 };
 
 const ne = {
@@ -230,6 +275,21 @@ const ne = {
     poweredBy: 'एक QuickLabs Enterprise',
     workWith: 'व्यापारीहरू हाम्रो साथ यहाँ काम गर्छन्',
     rights: 'सर्वाधिकार सुरक्षित।',
+  },
+  audit: {
+    title: 'निःशुल्क वेबसाइट अडिट',
+    subtitle: '३० सेकेन्डमा जान्नुहोस् तपाईंको वेबसाइटमा के गल्ती छ — पूर्णतया निःशुल्क',
+    formUrl: 'तपाईंको वेबसाइट URL',
+    formUrlPlaceholder: 'जस्तै www.yourbusiness.com',
+    formName: 'व्यापारको नाम',
+    formNamePlaceholder: 'जस्तै शर्मा प्लम्बिंग',
+    formCity: 'शहर',
+    formCityPlaceholder: 'जस्तै सिलिगुडी',
+    formCategory: 'व्यापार कैटेगरी',
+    formCategorySelect: 'आफ्नो कैटेगरी छान्नुहोस्',
+    formSubmit: 'निःशुल्क अडिट चलाउनुहोस्',
+    formLoading: 'तपाईंको वेबसाइट विश्लेषण हुँदैछ...',
+    navLabel: 'निःशुल्क अडिट',
   },
 };
 

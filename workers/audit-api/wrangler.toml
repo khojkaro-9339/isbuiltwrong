@@ -1,0 +1,9 @@
+name = "ibw-audit-api"
+main = "src/index.ts"
+compatibility_date = "2026-05-25"
+account_id = "4fbed2868dd9b22e1fad00234fa042c0"
+
+[vars]
+SUPABASE_URL = "https://bteuuvvxdfoxlibyahsu.supabase.co"
+
+# Set SUPABASE_SERVICE_KEY via `wrangler secret put SUPABASE_SERVICE_KEY`

@@ -10,6 +10,7 @@ const { locale = 'en' } = Astro.props;
 const t = getTranslations(locale);
 
 const navLinks = [
+  { label: t.audit.navLabel, href: getLocalePath(locale, 'audit'), highlight: true },
   { label: t.nav.blog, href: getLocalePath(locale, 'blog') },
   { label: t.nav.about, href: getLocalePath(locale, 'about') },
   { label: t.nav.contact, href: getLocalePath(locale, 'contact') },
@@ -23,7 +24,9 @@ const navLinks = [
 
     <div class="hidden sm:flex items-center gap-6">
       {navLinks.map(link => (
-        <a href={link.href} class="text-sm text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)] transition-colors">
+        <a href={link.href} class={link.highlight
+          ? "text-sm font-semibold text-[var(--color-brand)] hover:text-[var(--color-brand-dark)] transition-colors"
+          : "text-sm text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)] transition-colors"}>
           {link.label}
         </a>
       ))}

@@ -1,0 +1,148 @@
+---
+export const prerender = false;
+
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const { id } = Astro.params;
+
+const SUPABASE_URL = 'https://bteuuvvxdfoxlibyahsu.supabase.co';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJ0ZXV1dnZ4ZGZveGxpYnlhaHN1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk1NDc0NjEsImV4cCI6MjA5NTEyMzQ2MX0.nOxBdog_Wac67BF_CEfQWO4pLO6ZCIShoeTtEexmTP4';
+
+let report = null;
+let error = false;
+
+try {
+  const res = await fetch(`${SUPABASE_URL}/rest/v1/audit_reports?id=eq.${id}&select=*`, {
+    headers: { 'apikey': SUPABASE_ANON_KEY, 'Authorization': `Bearer ${SUPABASE_ANON_KEY}` }
+  });
+  const data = await res.json();
+  if (data && data.length > 0) {
+    report = data[0];
+  } else {
+    error = true;
+  }
+} catch {
+  error = true;
+}
+
+const locale = report?.locale || 'en';
+
+const labels = {
+  en: { performance: 'Speed & Performance', seo: 'SEO Basics', trust: 'Trust Signals', mobile: 'Mobile Friendliness', leadCapture: 'Lead Capture & CTA', overall: 'Overall Score', report_title: 'Website Audit Report', city_label: 'City', fix_cta: 'KhojKaro can fix all of this for you', fix_button: 'Talk to KhojKaro', benchmarks_title: 'What top businesses do', gaps_title: "What you're missing" },
+  hi: { performance: 'स्पीड और परफॉर्मेंस', seo: 'SEO बेसिक्स', trust: 'विश्वास संकेत', mobile: 'मोबाइल फ्रेंडलीनेस', leadCapture: 'लीड कैप्चर और CTA', overall: 'कुल स्कोर', report_title: 'वेबसाइट ऑडिट रिपोर्ट', city_label: 'शहर', fix_cta: 'KhojKaro यह सब आपके लिए ठीक कर सकता है', fix_button: 'KhojKaro से बात करें', benchmarks_title: 'टॉप बिज़नेस क्या करते हैं', gaps_title: 'आपमें क्या कमी है' },
+  bn: { performance: 'স্পিড ও পারফরম্যান্স', seo: 'SEO বেসিক্স', trust: 'বিশ্বাসের সংকেত', mobile: 'মোবাইল ফ্রেন্ডলিনেস', leadCapture: 'লিড ক্যাপচার ও CTA', overall: 'সার্বিক স্কোর', report_title: 'ওয়েবসাইট অডিট রিপোর্ট', city_label: 'শহর', fix_cta: 'KhojKaro এই সব আপনার জন্য ঠিক করতে পারে', fix_button: 'KhojKaro-এর সাথে কথা বলুন', benchmarks_title: 'সেরা ব্যবসাগুলো কী করে', gaps_title: 'আপনার কী নেই' },
+  ne: { performance: 'स्पिड र परफर्मेन्स', seo: 'SEO बेसिक्स', trust: 'विश्वास संकेत', mobile: 'मोबाइल फ्रेन्डलिनेस', leadCapture: 'लिड क्याप्चर र CTA', overall: 'समग्र स्कोर', report_title: 'वेबसाइट अडिट रिपोर्ट', city_label: 'शहर', fix_cta: 'KhojKaro ले यो सबै तपाईंको लागि ठीक गर्न सक्छ', fix_button: 'KhojKaro सँग कुरा गर्नुहोस्', benchmarks_title: 'शीर्ष व्यापारहरूले के गर्छन्', gaps_title: 'तपाईंमा के छैन' },
+};
+
+const l = labels[locale] || labels.en;
+
+function getScoreColor(s) {
+  return s < 40 ? 'text-red-600' : s < 70 ? 'text-amber-600' : 'text-green-600';
+}
+function getScoreBg(s) {
+  return s < 40 ? 'bg-red-50 border-red-200' : s < 70 ? 'bg-amber-50 border-amber-200' : 'bg-green-50 border-green-200';
+}
+function getSevColor(sev) {
+  if (sev === 'critical') return 'bg-red-100 text-red-700';
+  if (sev === 'high') return 'bg-orange-100 text-orange-700';
+  if (sev === 'medium') return 'bg-amber-100 text-amber-700';
+  return 'bg-gray-100 text-gray-700';
+}
+function getIssueText(issue) {
+  if (typeof issue.text === 'object') return issue.text[locale] || issue.text.en;
+  return issue.text;
+}
+
+const rd = report?.report_data;
+const cats = ['performance', 'seo', 'trust', 'mobile', 'leadCapture'];
+---
+<BaseLayout
+  title={report ? `${report.business_name} - Audit Report | Is Built Wrong` : 'Report Not Found'}
+  description={report ? `Audit score: ${report.overall_score}/100` : 'Report not found'}
+  locale={locale}
+>
+  <meta slot="head" name="robots" content="noindex, nofollow" />
+
+  {error && (
+    <section class="py-20 text-center">
+      <p class="text-red-600 text-lg font-medium">Report not found</p>
+      <a href="/in/en/audit" class="mt-4 inline-block text-[var(--color-brand)] underline">Run a new audit</a>
+    </section>
+  )}
+
+  {report && rd && (
+    <section class="py-12 sm:py-20">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 space-y-6">
+        <div class="text-center mb-8">
+          <p class="text-sm text-[var(--color-text-secondary)] mb-2">{l.report_title}</p>
+          <h1 class="font-[family-name:var(--font-heading)] text-2xl sm:text-3xl font-bold">{report.business_name}</h1>
+          <p class="text-[var(--color-text-secondary)] mt-1">{report.website_url}</p>
+          {report.city && <p class="text-sm text-gray-500 mt-1">{l.city_label}: {report.city}</p>}
+        </div>
+
+        <div class={`${getScoreBg(report.overall_score)} border rounded-2xl p-8 text-center`}>
+          <p class="text-sm font-medium text-gray-600 mb-2">{l.overall}</p>
+          <p class={`${getScoreColor(report.overall_score)} text-6xl sm:text-7xl font-bold font-[family-name:var(--font-heading)]`}>
+            {report.overall_score}<span class="text-2xl">/100</span>
+          </p>
+        </div>
+
+        {cats.map(cat => {
+          const section = rd[cat];
+          if (!section) return null;
+          const issues = section.issues || [];
+          return (
+            <div class="bg-white border border-[var(--color-border)] rounded-xl p-5">
+              <div class="flex items-center justify-between mb-3">
+                <h3 class="font-semibold">{l[cat]}</h3>
+                <span class={`${getScoreColor(section.score)} font-bold text-lg`}>{section.score}/100</span>
+              </div>
+              {issues.length > 0 ? (
+                <ul class="space-y-0">
+                  {issues.map(issue => (
+                    <li class="flex items-start gap-3 py-2 border-b border-gray-100 last:border-0">
+                      <span class={`flex-shrink-0 px-2 py-0.5 rounded text-xs font-medium ${getSevColor(issue.severity)}`}>
+                        {issue.severity}
+                      </span>
+                      <span class="text-sm">{getIssueText(issue)}</span>
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                <p class="text-green-600 text-sm">No issues found!</p>
+              )}
+            </div>
+          );
+        })}
+
+        {rd.categoryInsights && (
+          <div class="bg-blue-50 border border-blue-200 rounded-xl p-5">
+            {rd.categoryInsights.benchmarks?.length > 0 && (
+              <div class="mb-4">
+                <h4 class="font-semibold text-blue-900 mb-2">{l.benchmarks_title}</h4>
+                <ul>{rd.categoryInsights.benchmarks.map(b => <li class="text-sm py-1">• {b}</li>)}</ul>
+              </div>
+            )}
+            {rd.categoryInsights.gaps?.length > 0 && (
+              <div>
+                <h4 class="font-semibold text-blue-900 mb-2">{l.gaps_title}</h4>
+                <ul>{rd.categoryInsights.gaps.map(g => <li class="text-sm py-1">• {g}</li>)}</ul>
+              </div>
+            )}
+          </div>
+        )}
+
+        <div class="bg-[var(--color-brand)] text-white rounded-2xl p-8 text-center">
+          <p class="text-xl font-semibold mb-3">{l.fix_cta}</p>
+          <a href="https://khojkaro.in" target="_blank" rel="noopener" class="inline-flex items-center gap-2 bg-white text-[var(--color-brand)] font-bold px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors">
+            {l.fix_button}
+          </a>
+        </div>
+
+        <p class="text-center text-xs text-gray-400 mt-8">
+          Generated by isbuiltwrong.com • {new Date(report.created_at).toLocaleDateString()}
+        </p>
+      </div>
+    </section>
+  )}
+</BaseLayout>
