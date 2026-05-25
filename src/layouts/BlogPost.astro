@@ -1,0 +1,63 @@
+---
+import BaseLayout from './BaseLayout.astro';
+
+interface Props {
+  frontmatter: {
+    title: string;
+    description: string;
+    date: Date;
+    tags: string[];
+    image?: string;
+  };
+}
+
+const { frontmatter } = Astro.props;
+const formattedDate = new Date(frontmatter.date).toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+---
+<BaseLayout title={`${frontmatter.title} | Is Built Wrong`} description={frontmatter.description} type="article">
+  <article class="max-w-3xl mx-auto px-4 sm:px-6 py-16 sm:py-24">
+    <header class="mb-12">
+      <div class="flex items-center gap-3 mb-4">
+        <time datetime={frontmatter.date.toISOString()} class="text-sm text-[var(--color-text-muted)]">
+          {formattedDate}
+        </time>
+        {frontmatter.tags.length > 0 && (
+          <span class="text-[var(--color-text-muted)]">&middot;</span>
+          <span class="text-sm text-[var(--color-brand)] font-medium">{frontmatter.tags[0]}</span>
+        )}
+      </div>
+      <h1 class="font-[family-name:var(--font-heading)] text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-4">
+        {frontmatter.title}
+      </h1>
+      <p class="text-lg text-[var(--color-text-secondary)] leading-relaxed">
+        {frontmatter.description}
+      </p>
+    </header>
+
+    <div class="prose prose-invert prose-lg max-w-none
+      prose-headings:font-[family-name:var(--font-heading)] prose-headings:text-[var(--color-text-primary)]
+      prose-p:text-[var(--color-text-secondary)] prose-p:leading-relaxed
+      prose-a:text-[var(--color-brand)] prose-a:no-underline hover:prose-a:underline
+      prose-strong:text-[var(--color-text-primary)]
+      prose-code:text-[var(--color-brand)] prose-code:bg-[var(--color-surface-overlay)] prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded
+      prose-blockquote:border-[var(--color-brand)] prose-blockquote:text-[var(--color-text-secondary)]
+      prose-li:text-[var(--color-text-secondary)]">
+      <slot />
+    </div>
+
+    <footer class="mt-16 pt-8 border-t border-[var(--color-border)]">
+      <div class="bg-[var(--color-surface-raised)] rounded-2xl p-6 sm:p-8">
+        <p class="font-[family-name:var(--font-heading)] text-xl font-semibold mb-2">Need help fixing this?</p>
+        <p class="text-[var(--color-text-secondary)] mb-4">Our team at KhojKaro handles this for businesses like yours — no jargon, just results.</p>
+        <a href="https://khojkaro.in" target="_blank" rel="noopener" class="inline-flex items-center gap-2 bg-[var(--color-brand)] text-white font-semibold px-6 py-3 rounded-lg hover:bg-[var(--color-brand-dark)] transition-colors">
+          Talk to KhojKaro
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+        </a>
+      </div>
+    </footer>
+  </article>
+</BaseLayout>

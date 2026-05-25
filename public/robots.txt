@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://isbuiltwrong.com/sitemap-index.xml

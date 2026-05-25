@@ -1,0 +1,42 @@
+---
+import type { Locale } from '../i18n/translations';
+import { getTranslations, getLocalePath } from '../i18n/translations';
+
+interface Props {
+  locale?: Locale;
+}
+
+const { locale = 'en' } = Astro.props;
+const t = getTranslations(locale);
+---
+<section class="relative overflow-hidden">
+  <div class="absolute inset-0 bg-gradient-to-b from-[var(--color-brand)]/5 via-transparent to-transparent"></div>
+  <div class="absolute top-1/4 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-[var(--color-brand)]/5 rounded-full blur-3xl"></div>
+
+  <div class="relative max-w-6xl mx-auto px-4 sm:px-6 pt-16 sm:pt-24 pb-20 sm:pb-32">
+    <div class="max-w-3xl">
+      <div class="inline-flex items-center gap-2 bg-[var(--color-surface-raised)] border border-[var(--color-border)] rounded-full px-4 py-1.5 mb-8">
+        <span class="w-2 h-2 bg-[var(--color-brand)] rounded-full animate-pulse"></span>
+        <span class="text-sm text-[var(--color-text-secondary)]">{t.hero.badge}</span>
+      </div>
+
+      <h1 class="font-[family-name:var(--font-heading)] text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] mb-6 whitespace-pre-line">
+        {t.hero.headline}
+      </h1>
+
+      <p class="text-lg sm:text-xl text-[var(--color-text-secondary)] leading-relaxed max-w-2xl mb-10">
+        {t.hero.subheadline}
+      </p>
+
+      <div class="flex flex-col sm:flex-row gap-4">
+        <a href="https://khojkaro.in" target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 bg-[var(--color-brand)] text-white font-semibold px-8 py-4 rounded-xl hover:bg-[var(--color-brand-dark)] transition-all hover:scale-[1.02] active:scale-[0.98]">
+          {t.hero.cta}
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+        </a>
+        <a href={getLocalePath(locale, 'blog')} class="inline-flex items-center justify-center gap-2 border border-[var(--color-border)] text-[var(--color-text-primary)] font-medium px-8 py-4 rounded-xl hover:bg-[var(--color-surface-raised)] transition-all">
+          {t.hero.ctaSecondary}
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,15 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Hero from '../../components/Hero.astro';
+import ValueProps from '../../components/ValueProps.astro';
+import CTASection from '../../components/CTASection.astro';
+import { getTranslations } from '../../i18n/translations';
+
+const locale = 'bn';
+const t = getTranslations(locale);
+---
+<BaseLayout title="Is Built Wrong — তোমার ব্যবসা আরও ভালো হতে পারে" locale={locale}>
+  <Hero locale={locale} />
+  <ValueProps locale={locale} />
+  <CTASection locale={locale} />
+</BaseLayout>

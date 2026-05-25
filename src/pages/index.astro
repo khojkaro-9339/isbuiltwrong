@@ -1,0 +1,52 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import ValueProps from '../components/ValueProps.astro';
+import CTASection from '../components/CTASection.astro';
+import BlogCard from '../components/BlogCard.astro';
+import { getCollection } from 'astro:content';
+import { getTranslations } from '../i18n/translations';
+
+const locale = 'en';
+const t = getTranslations(locale);
+
+const posts = (await getCollection('blog'))
+  .filter(post => !post.data.draft)
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0, 3);
+---
+<BaseLayout title="Is Built Wrong — Your Business Deserves Better" locale={locale}>
+  <Hero locale={locale} />
+  <ValueProps locale={locale} />
+
+  {posts.length > 0 && (
+    <section class="py-16 sm:py-24 border-t border-[var(--color-border)]">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        <div class="flex items-end justify-between mb-12">
+          <div>
+            <h2 class="font-[family-name:var(--font-heading)] text-2xl sm:text-3xl font-bold mb-2">{t.blog.title}</h2>
+            <p class="text-[var(--color-text-secondary)]">{t.blog.subtitle}</p>
+          </div>
+          <a href="/blog" class="hidden sm:inline-flex items-center gap-1.5 text-sm font-medium text-[var(--color-brand)] hover:gap-2.5 transition-all">
+            View all
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+          </a>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {posts.map(post => (
+            <BlogCard
+              title={post.data.title}
+              description={post.data.description}
+              date={post.data.date}
+              slug={post.id}
+              tags={post.data.tags}
+              readMore={t.blog.readMore}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <CTASection locale={locale} />
+</BaseLayout>

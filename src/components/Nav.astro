@@ -1,0 +1,87 @@
+---
+import type { Locale } from '../i18n/translations';
+import { getTranslations, localeNames, locales, getLocalePath } from '../i18n/translations';
+
+interface Props {
+  locale?: Locale;
+}
+
+const { locale = 'en' } = Astro.props;
+const t = getTranslations(locale);
+
+const navLinks = [
+  { label: t.nav.blog, href: getLocalePath(locale, 'blog') },
+  { label: t.nav.about, href: getLocalePath(locale, 'about') },
+  { label: t.nav.contact, href: getLocalePath(locale, 'contact') },
+];
+---
+<nav class="fixed top-0 left-0 right-0 z-50 bg-[var(--color-surface)]/80 backdrop-blur-xl border-b border-[var(--color-border)]">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+    <a href={getLocalePath(locale)} class="flex items-center gap-2 group">
+      <span class="font-[family-name:var(--font-heading)] text-lg font-bold tracking-tight">
+        is<span class="text-[var(--color-brand)]">built</span>wrong
+      </span>
+    </a>
+
+    <div class="hidden sm:flex items-center gap-6">
+      {navLinks.map(link => (
+        <a href={link.href} class="text-sm text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)] transition-colors">
+          {link.label}
+        </a>
+      ))}
+
+      <div class="relative group">
+        <button class="text-sm text-[var(--color-text-muted)] hover:text-[var(--color-text-secondary)] transition-colors flex items-center gap-1">
+          {localeNames[locale]}
+          <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div class="absolute top-full right-0 mt-2 bg-[var(--color-surface-raised)] border border-[var(--color-border)] rounded-lg py-1 min-w-[120px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+          {locales.map(l => (
+            <a href={getLocalePath(l)} class={`block px-4 py-2 text-sm hover:bg-[var(--color-surface-overlay)] transition-colors ${l === locale ? 'text-[var(--color-brand)]' : 'text-[var(--color-text-secondary)]'}`}>
+              {localeNames[l]}
+            </a>
+          ))}
+        </div>
+      </div>
+
+      <a href="https://khojkaro.in" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-sm font-medium text-[var(--color-brand)] hover:text-white transition-colors">
+        {t.nav.getHelp}
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+      </a>
+    </div>
+
+    <button id="mobile-menu-btn" class="sm:hidden p-2 text-[var(--color-text-secondary)]" aria-label="Menu">
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+    </button>
+  </div>
+
+  <div id="mobile-menu" class="sm:hidden hidden border-t border-[var(--color-border)] bg-[var(--color-surface)]">
+    <div class="px-4 py-4 flex flex-col gap-3">
+      {navLinks.map(link => (
+        <a href={link.href} class="text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)] py-2 transition-colors">
+          {link.label}
+        </a>
+      ))}
+      <div class="flex gap-3 py-2 border-t border-[var(--color-border)] mt-2 pt-4">
+        {locales.map(l => (
+          <a href={getLocalePath(l)} class={`text-sm px-3 py-1.5 rounded-md transition-colors ${l === locale ? 'bg-[var(--color-brand)] text-white' : 'text-[var(--color-text-muted)] hover:text-[var(--color-text-primary)]'}`}>
+            {localeNames[l]}
+          </a>
+        ))}
+      </div>
+      <a href="https://khojkaro.in" target="_blank" rel="noopener" class="text-[var(--color-brand)] font-medium py-2">
+        {t.nav.getHelp} →
+      </a>
+    </div>
+  </div>
+</nav>
+
+<div class="h-16"></div>
+
+<script>
+  const btn = document.getElementById('mobile-menu-btn');
+  const menu = document.getElementById('mobile-menu');
+  btn?.addEventListener('click', () => {
+    menu?.classList.toggle('hidden');
+  });
+</script>
