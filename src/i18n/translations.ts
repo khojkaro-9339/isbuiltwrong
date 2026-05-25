@@ -240,6 +240,5 @@ export function getTranslations(locale: Locale) {
 }
 
 export function getLocalePath(locale: Locale, path: string = '') {
-  if (locale === 'en') return `/${path}`;
-  return `/${locale}/${path}`;
+  return `/in/${locale}/${path}`;
 }

@@ -1,52 +1,60 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-import Hero from '../components/Hero.astro';
-import ValueProps from '../components/ValueProps.astro';
-import CTASection from '../components/CTASection.astro';
-import BlogCard from '../components/BlogCard.astro';
-import { getCollection } from 'astro:content';
-import { getTranslations } from '../i18n/translations';
-
-const locale = 'en';
-const t = getTranslations(locale);
-
-const posts = (await getCollection('blog'))
-  .filter(post => !post.data.draft)
-  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
-  .slice(0, 3);
+import '../styles/global.css';
 ---
-<BaseLayout title="Is Built Wrong — Your Business Deserves Better" locale={locale}>
-  <Hero locale={locale} />
-  <ValueProps locale={locale} />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <title>Is Built Wrong — Choose Your Language</title>
+  <meta name="description" content="Your business is built wrong. We'll show you why — in your language." />
+  <script>
+    const saved = localStorage.getItem('ibw_lang');
+    if (saved) {
+      window.location.replace('/in/' + saved + '/');
+    }
+  </script>
+</head>
+<body class="min-h-screen flex items-center justify-center px-4">
+  <div class="max-w-lg w-full text-center">
+    <img src="/logo.png" alt="Is Built Wrong" class="h-12 sm:h-14 mx-auto mb-8" />
+    
+    <h1 class="font-[family-name:var(--font-heading)] text-2xl sm:text-3xl font-bold mb-3">
+      अपनी भाषा चुनें
+    </h1>
+    <p class="text-[var(--color-text-secondary)] mb-10 text-lg">
+      Pick your language
+    </p>
 
-  {posts.length > 0 && (
-    <section class="py-16 sm:py-24 border-t border-[var(--color-border)]">
-      <div class="max-w-6xl mx-auto px-4 sm:px-6">
-        <div class="flex items-end justify-between mb-12">
-          <div>
-            <h2 class="font-[family-name:var(--font-heading)] text-2xl sm:text-3xl font-bold mb-2">{t.blog.title}</h2>
-            <p class="text-[var(--color-text-secondary)]">{t.blog.subtitle}</p>
-          </div>
-          <a href="/blog" class="hidden sm:inline-flex items-center gap-1.5 text-sm font-medium text-[var(--color-brand)] hover:gap-2.5 transition-all">
-            View all
-            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
-          </a>
-        </div>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {posts.map(post => (
-            <BlogCard
-              title={post.data.title}
-              description={post.data.description}
-              date={post.data.date}
-              slug={post.id}
-              tags={post.data.tags}
-              readMore={t.blog.readMore}
-            />
-          ))}
-        </div>
-      </div>
-    </section>
-  )}
+    <div class="grid grid-cols-2 gap-4">
+      <a href="/in/hi/" onclick="localStorage.setItem('ibw_lang','hi')" class="group flex flex-col items-center gap-2 bg-[var(--color-surface-raised)] border border-[var(--color-border)] rounded-2xl p-6 hover:border-[var(--color-brand)]/50 hover:bg-[var(--color-surface-overlay)] transition-all">
+        <span class="text-2xl font-bold text-[var(--color-text-primary)] group-hover:text-[var(--color-brand)] transition-colors">हिंदी</span>
+        <span class="text-sm text-[var(--color-text-muted)]">Hindi mein padhein</span>
+      </a>
 
-  <CTASection locale={locale} />
-</BaseLayout>
+      <a href="/in/en/" onclick="localStorage.setItem('ibw_lang','en')" class="group flex flex-col items-center gap-2 bg-[var(--color-surface-raised)] border border-[var(--color-border)] rounded-2xl p-6 hover:border-[var(--color-brand)]/50 hover:bg-[var(--color-surface-overlay)] transition-all">
+        <span class="text-2xl font-bold text-[var(--color-text-primary)] group-hover:text-[var(--color-brand)] transition-colors">English</span>
+        <span class="text-sm text-[var(--color-text-muted)]">Read in English</span>
+      </a>
+
+      <a href="/in/bn/" onclick="localStorage.setItem('ibw_lang','bn')" class="group flex flex-col items-center gap-2 bg-[var(--color-surface-raised)] border border-[var(--color-border)] rounded-2xl p-6 hover:border-[var(--color-brand)]/50 hover:bg-[var(--color-surface-overlay)] transition-all">
+        <span class="text-2xl font-bold text-[var(--color-text-primary)] group-hover:text-[var(--color-brand)] transition-colors">বাংলা</span>
+        <span class="text-sm text-[var(--color-text-muted)]">Bangla-y porun</span>
+      </a>
+
+      <a href="/in/ne/" onclick="localStorage.setItem('ibw_lang','ne')" class="group flex flex-col items-center gap-2 bg-[var(--color-surface-raised)] border border-[var(--color-border)] rounded-2xl p-6 hover:border-[var(--color-brand)]/50 hover:bg-[var(--color-surface-overlay)] transition-all">
+        <span class="text-2xl font-bold text-[var(--color-text-primary)] group-hover:text-[var(--color-brand)] transition-colors">नेपाली</span>
+        <span class="text-sm text-[var(--color-text-muted)]">Nepali ma padhnuhos</span>
+      </a>
+    </div>
+
+    <p class="mt-8 text-xs text-[var(--color-text-muted)]">
+      आप बाद में भी भाषा बदल सकते हैं &middot; You can change language later
+    </p>
+  </div>
+</body>
+</html>
