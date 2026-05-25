@@ -1,43 +1,58 @@
-# Astro Starter Kit: Minimal
+# isbuiltwrong.com
 
-```sh
-npm create astro@latest -- --template minimal
+Marketing content hub for Indian SMBs. Built with Astro + Tailwind CSS, deployed on Cloudflare Pages.
+
+## Quick Start
+
+```bash
+npm install
+npm run dev      # Local dev server
+npm run build    # Production build
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Deploy to Cloudflare Pages
 
-## 🚀 Project Structure
+### Option 1: Dashboard (recommended for first setup)
+1. Go to [Cloudflare Dashboard](https://dash.cloudflare.com) → Workers & Pages → Create
+2. Connect GitHub → Select `khojkaro-9339/isbuiltwrong`
+3. Build settings:
+   - Framework preset: Astro
+   - Build command: `npm run build`
+   - Build output directory: `dist`
+4. Deploy
 
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+### Option 2: Wrangler CLI
+```bash
+npx wrangler pages deploy dist
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Adding Blog Posts
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+Drop a markdown file in `src/content/blog/` with this frontmatter:
 
-Any static assets, like images, can be placed in the `public/` directory.
+```markdown
+---
+title: "Your Post Title"
+description: "Brief description for SEO"
+date: 2026-05-25
+tags: ["SEO", "Marketing"]
+keywords: ["relevant search terms"]
+---
 
-## 🧞 Commands
+Post content here...
+```
 
-All commands are run from the root of the project, from a terminal:
+Push to GitHub and Cloudflare auto-deploys.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## Languages
 
-## 👀 Want to learn more?
+- English (default): `/`
+- Hindi: `/hi/`
+- Bengali: `/bn/`
+- Nepali: `/ne/`
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## Architecture
+
+- **isbuiltwrong.com** → awareness/content (this site)
+- **khojkaro.in** → service delivery (linked via CTAs)
+- Both powered by QuickLabs Enterprises
