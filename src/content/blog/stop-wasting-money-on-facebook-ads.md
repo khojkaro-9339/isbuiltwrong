@@ -4,6 +4,7 @@ description: "Running Facebook or Google ads for your small business but not get
 date: 2026-05-20
 tags: ["Ads", "Marketing"]
 keywords: ["facebook ads not working small business", "google ads waste money india", "digital marketing budget small business"]
+image: "/images/placeholder-chart.webp"
 ---
 
 Every month, lakhs of small business owners in India pour money into Facebook and Google ads hoping for customers. Most of them get nothing back.

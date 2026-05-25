@@ -4,6 +4,7 @@ description: "You spent money on a website. It looks decent. But your phone isn'
 date: 2026-05-25
 tags: ["Website", "SMB"]
 keywords: ["small business website not working", "website no calls", "why my website gets no customers india"]
+image: "/images/blog-website-not-getting-customers.webp"
 ---
 
 You built a website. Or you paid someone to build it. Maybe it cost ₹5,000, maybe ₹50,000. It's online, it loads, it has your phone number somewhere on it.

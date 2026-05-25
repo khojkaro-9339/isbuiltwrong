@@ -12,7 +12,7 @@ interface Props {
   locale?: Locale;
 }
 
-const { title, description = "Your business is built wrong. We'll show you why — and how to fix it.", image = '/og-image.png', type = 'website', locale = 'en' } = Astro.props;
+const { title, description = "Your business is built wrong. We'll show you why — and how to fix it.", image = '/images/og-image.webp', type = 'website', locale = 'en' } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const pathWithoutLocale = Astro.url.pathname.replace(/^\/in\/(en|hi|bn|ne)/, '');
 ---

@@ -4,6 +4,7 @@ description: "Your competitor shows up on Google when someone searches. You don'
 date: 2026-05-23
 tags: ["Google", "SEO"]
 keywords: ["why my business not on google", "google me business kaise dikhaye", "local seo india small business"]
+image: "/images/blog-google-doesnt-show-business.webp"
 ---
 
 Someone in your city searches for exactly what you sell. Your competitor's name appears. Yours doesn't.
